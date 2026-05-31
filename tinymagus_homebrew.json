@@ -1,0 +1,1549 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TinyMagus",
+				"abbreviation": "TinyMagus",
+				"full": "TinyMagus",
+				"url": "",
+				"authors": ["Tiny Dragon"],
+				"convertedBy": ["Tiny Dragon"],
+				"version": "1.0.0",
+				"color": "c9a227"
+			}
+		],
+		"currencyConversions": {
+			"Credits": [
+				{
+					"coin": "$",
+					"mult": 1,
+					"isFallback": true
+				}
+			]
+		},
+		"optionalFeatureTypes": {
+			"MH:VU": "Modern Upgrade",
+			"BO": "Bomb Formula",
+			"DI": "Discovery"
+		},
+		"status": "ready",
+		"dateAdded": 1552865157,
+		"dateLastModified": 1756115829,
+		"dependencies": {
+			"raceFluff": [
+				"PHB"
+			]
+		},
+		"internalCopies": [
+			"raceFluff"
+		]
+	},
+	"item": [
+		{
+			"name": "Anima, Dagger of Life",
+			"source": "TinyMagus",
+			"page": 214,
+			"baseItem": "dagger|PHB",
+			"type": "M",
+			"rarity": "Artifact",
+			"reqAttune": "by any non-evil creature",
+			"reqAttuneTags": [
+				{
+					"alignment": [
+						"G, N"
+					]
+				}
+			],
+			"sentient": true,
+			"weight": 1.5,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d2",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				{
+					"type": "entries",
+					"name": "Living Blade",
+					"entries": [
+						"You can use a free action to change to one of the 3 sizes, changing its damage die between d2, d4, or d6. The dagger prefers to stay small as that is the size that fits the scabard."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Revivify",
+					"entries": [
+						"You can use an action to cast the {@spell revivify} spell from the dagger. You must stab the target with the dagger to cast the spell. Once this property of the weapon is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries": [
+						"Anima is a sentient, true neutral dagger with an Intelligence of 8, a Wisdom of 11, and a Charisma of 15. It can see and hear out to a range of 60 feet. The sword can read, and understand Common and Celestial. It frets over your well-being while you are attuned to it, however if the choice is between you and her lover she will not hesitate."
+					]
+				}
+			],
+			"attachedSpells": [
+				"revivify"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Steel",
+			"source": "TinyMagus",
+			"page": 214,
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": "by a good-aligned creature",
+			"reqAttuneTags": [
+				{
+					"alignment": [
+						"G"
+					]
+				}
+			],
+			"sentient": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+2",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				{
+					"type": "entries",
+					"name": "Revivify",
+					"entries": [
+						"You can use an action to cast the {@spell revivify} spell from the sword. You must touch the target with the sword to cast the spell. Once this property of the weapon is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries": [
+						"Steel is a sentient, lawful good longsword with an Intelligence of 8, a Wisdom of 11, and a Charisma of 15. It can see and hear out to a range of 60 feet. The sword can speak, read, and understand Common and Draconic. It frets over your well-being while you are attuned to it, and it doesn't like to back down from a fight."
+					]
+				}
+			],
+			"attachedSpells": [
+				"revivify"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Arcalibur, The Weavecutter",
+			"source": "TinyMagus",
+			"page": 214,
+			"baseItem": "Longsword",
+			"type": "M",
+			"rarity": "Artifact",
+			"reqAttune": true,
+			"sentient": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"A longsword covered in glimmering runes of arcane origin ever changing and containing endless combinations",
+				"You gain a +1 bonus to attack and damage rolls made with this weapon.",
+				{
+					"type": "entries",
+					"name": "Magebane",
+					"entries": [
+						"While holding this weapon, you gain the benefits of mage slayer and gain an extra reaction (Can only be used to cast counterspell"
+					]
+				},
+				"As a bonus action you can nullify magical defenses such mage armor and shield, when it comes to Arcaliburs attacks. the blade splitting the weave in its place creating a temporary antimagic field for split seconds.",
+				{
+					"type": "entries",
+					"name": "Rend",
+					"entries": [
+						"Additionally, magic items that take 100+ damage from Arcalibur in less then 1 hour are reduced in power or rendered nonmagical.",
+						"Excessive use of this ability could leave marks on the weave"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Astromancy Archive",
+			"source": "TinyMagus",
+			"page": 0,
+			"rarity": "legendary",
+			"reqAttune": "by a wizard",
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				}
+			],
+			"wondrous": true,
+			"weight": 3,
+			"recharge": "dawn",
+			"charges": 3,
+			"focus": [
+				"Wizard"
+			],
+			"entries": [
+				"This brass disc of articulated, concentric rings unfolds into an armillary sphere. As a bonus action, you can unfold it into the sphere or back into a disc. When found, it contains the following spells, which are wizard spells for you while you are attuned to it: {@spell augury}, {@spell divination}, {@spell find the path}, {@spell foresight}, {@spell locate creature}, and {@spell locate object}. It functions as a spellbook for you, with spells encoded on the rings.",
+				"While you are holding the archive, you can use it as a spellcasting focus for your wizard spells.",
+				"The archive has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
+				{
+					"type": "list",
+					"items": [
+						"If you spend 1 minute studying the archive, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the archive. The new spell must be of the divination school.",
+						"When a creature you can see within 30 feet of you makes an attack roll, an ability check, or a saving throw, you can use your reaction to expend 1 charge and force the creature to roll a {@dice d4} and apply the number rolled as a bonus or penalty (your choice) to the original roll. You can do this after you see the roll but before its effects are applied."
+					]
+				},
+				"Awakened. When the Astromancy Archive reaches an awakened state, it gains the following properties:",
+				{
+					"type": "list",
+					"items": [
+						"13 stars, located on the Archive. While holding the archive, you can use an action to use it to cast {@spell magic missile} as a 5th-level spell. The stars can be replenished using sometime",
+						"While holding the archive, you can use an action to enter the Astral Observatory along with everything you are wearing and carrying. You remain there until you use an action to return. You reappear next to archive, or if that space is occupied, the nearest unoccupied space. Any items left inside the Observatory are immediately expelled when you leave"
+					]
+				},
+				"Exalted. When the Astromancy Archive reaches an exalted state, it gains the following properties:",
+				{
+					"type": "list",
+					"items": [
+						"While inside the Observatory, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the Observatory. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space."
+					]
+				},
+				"Astral Observatory: An extradimensional space inside the archive, inside the central orb, from the inside it looks like a large black dome with a library of past astronomical events displayed inside, the dome's interior reflects the attuned creatures current idea of its layout (An endless plane, Cube, Large Hexagon)"
+			],
+			"attachedSpells": [
+				"augury",
+				"divination",
+				"find the path",
+				"foresight",
+				"locate creature",
+				"locate object",
+				"magic missile"
+			]
+		},
+		{
+			"name": "Dawnbringer's, End of Undead",
+			"source": "TinyMagus",
+			"page": 214,
+			"baseItem": "Spear",
+			"type": "M",
+			"rarity": "Artifact",
+			"reqAttune": true,
+			"sentient": true,
+			"weight": 3,
+			"weaponCategory": "Martial",
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"bonusWeapon": "2",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				{
+					"type": "entries",
+					"name": "Undead Bane",
+					"entries": [
+						"When you use Turn Undead, you speak a the commandphrase \"Let this light be your salvation, as it is your end\". instead of 30ft centered around you, you choose a 30 feet radius within a 120 feet of you. You can spend charges to increase the radius, each charge increases it by 30ft. Undead with CR below your Destroy Undead feature automatically fail an thus are also destoryed"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Final Dawn",
+			"source": "TinyMagus",
+			"page": 214,
+			"baseItem": "Greatsword",
+			"type": "M",
+			"rarity": "Artifact",
+			"reqAttune": true,
+			"sentient": true,
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"dmg2": "2d6",
+			"bonusWeapon": "2",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"This item appears to be a greatsword covered in yellow flames that dance like the sun. While grasping the hilt, you can use a bonus action to cause the blade to extinguish or reignite.",
+				"You gain a +2 bonus to attack and damage rolls made with this weapon. When you hit, that target takes an extra 2d6 radiant damage.",
+				"The sword's luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. You can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.",
+				{
+					"type": "entries",
+					"name": "Another Day, Another Night",
+					"entries": [
+						"While attuned to this weapon you gain death ward at the start of dawn upon which a scorched tattoo appears on your wrist in celestial, \"Today is not the day\""
+					]
+				},
+				"Anyone resting withing 30 feet of the weapon when it is planted into a bonfire or hearth shares this benefit with you"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Radeus Living Wood Longbow",
+			"source": "TinyMagus",
+			"page": 1,
+			"resist": [
+				"piercing"
+			],
+			"entries": [
+				"Weapon, rare (requires attunement)",
+				"This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat.",
+				{
+					"type": "entries",
+					"name": "Dormant",
+					"entries": [
+						"While wearing the wreath in its dormant state, you have {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision}, wearing the wreath increases the range of your {@sense darkvision} by 60 feet.",
+						"When you hit a beast, dragon, or monstrosity of challenge rating 5 or lower with an attack, or when you grapple it, you can use the wreath to cast {@spell dominate monster} on the creature (save DC 13). On a successful save, the target is immune to the power of the wreath for 24 hours. On a failure, a shimmering, golden image of the wreath appears as a collar around the target's neck or as a crown on its head (your choice) until it is no longer {@condition charmed} by the spell. If you use the wreath to charm a second creature, the first spell immediately ends. When the spell ends, the target knows it was {@condition charmed} by you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Awakened",
+					"entries": [
+						"Once the {@item Wreath of the Prism|EGW} reaches an awakened state, it gains the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You can affect creatures of challenge rating 10 or lower with the wreath.",
+								"The save DC of the wreath's spell increases to 15."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Exalted",
+					"entries": [
+						"Once the {@item Wreath of the Prism|EGW} reaches an exalted state, it gains the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You can affect creatures of challenge rating 15 or lower with the wreath.",
+								"The save DC of the wreath's spell increases to 17."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistant",
+					"entries": [
+						"While attuned to the artifact, you have resistance against to piercing damage"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Absorbtion",
+					"entries": [
+						"While attuned to the artifact, you have disadvantage on saving throws against poison, but poison only half as long."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Song Craft",
+					"entries": [
+						"Whenever this item is struck or is used to strike a foe, its bearer hears a fragment of an ancient song."
+					]
+				}
+			],
+			"attachedSpells": [
+				"dominate monster"
+			]
+		},
+		{
+			"name": "Scythe of Lunaris",
+			"source": "TinyMagus",
+			"page": 214,
+			"baseItem": "Scythe",
+			"type": "M",
+			"rarity": "Artifact",
+			"reqAttune": true,
+			"sentient": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V",
+				"F"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"dmg2": "2d10",
+			"bonusWeapon": "2",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.",
+				"When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.",
+				{
+					"type": "entries",
+					"name": "Deceptive strike",
+					"entries": [
+						"Creatures gain no benefit for using the dodge action and using reactions against an attack of this weapon unless they make a perception check against DC (8+Prof+Dex Mod)"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Evernight",
+					"entries": [
+						"While attuned you have +1 armor class and need 4 hours of moonlight to feel sated ",
+						"While attuned you can cast moonbeam at will"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "The Unforgiving",
+			"source": "TinyMagus",
+			"page": 214,
+			"baseItem": "Scythe",
+			"type": "M",
+			"rarity": "Artifact",
+			"reqAttune": true,
+			"sentient": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"H"
+			],
+			"dmg1": "1d12",
+			"dmgType": "S",
+			"bonusWeapon": "",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Suffering Beyond the Grave",
+					"entries": [
+						"When you use this weapon to make an attack, you can, as a command phrase, say, \"Death will not end your suffering\" The target of your attack becomes marked until it dies. You can have only one mark at a time. When the mark dies, you can choose a new one after the next dawn."
+					]
+				},
+				"When you make an attack roll with this weapon against mark, you have advantage on the roll. In addition, your mark gains no benefit from cover, other than total cover, and you suffer no disadvantage from any source. If the attack hits, mark takes an extra 2d6 slashing damage. While mark lives, you have disadvantage on attack rolls with all other weapons.",
+				"When your mark dies it gets sucked inside the blade where it is tormented for eternity or until the weapon finds peace",
+				{
+					"type": "entries",
+					"name": "Forgiveness",
+					"entries": [
+						"Once the weapon has slain all of its designated targets or it finds peace in another way it becomes Forgiveness, and set all the bound minds free"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Robe of Planar Unbinding",
+			"source": "TinyMagus",
+			"page": 11,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"curse": true,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d6 + 4}",
+			"charges": 10,
+			"entries": [
+				"This robe of brilliant blue fabric embedded with golden thread and glistening weave embroidered with dozens of patterns representing the flow of the astral and its place among the worlds.",
+				"Inside the robe are various shapes and color pools glistening with potential. While wearing the robe. you can use an action to reach inside one of the pools, out of which you pull a nonmagical item which value doesn't exceed 10x your proficiency bonus (rolled if dice), the value of which is deducted from the remaining potential of the robe, Items become unstable when more than 100 feet away from the robe and vanish",
+				"Additionally, the items may have otherworldly properties depending on their plane of origin.",
+				{
+					"type": "entries",
+					"name": "Dormant",
+					"entries": [
+						"While attuned to the robe in its dormant state, your AC increases by 1. represented by you occasionally not being there.",
+						"The robe has 10 charges. The robe regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the robe shifts and drags you to a random plane. On a 20, the robe regains {@dice 1d4 + 1} charges."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells",
+					"entries": [
+						"While attuned to this robe, you can expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: {@spell find familiar} (1 charge \"The creature summoned is of random origin and last for until the end of a long rest\" ), {@spell misty step} (2 charges), {@spell dimension door} (4 charges), {@spell far step|XGE} (5 charges), {@spell arcane gate} (6 charges)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Between the cracks",
+					"entries": [
+						"While you are attuned to this robe, you can speak its command word as an action to gain the effect of the {@spell etherealness} spell, which lasts until you lose {@status concentration}. This property cannot be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"Once attuned the robe becomes your anchor, your place is nowhere and everywhere its threads are all that hold you in from sinking in the deepest reaches of the astral depths. Unattuning is an ill-advised action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unraveling",
+					"entries": [
+						"While attuned to this item you are more a more conductive target to conjuration magic, both willing and not. You have disadvantage against spells and effects that would teleport you."
+					]
+				}
+			],
+			"attachedSpells": [
+				"etherealness",
+				"misty step",
+				"dimension door",
+				"far step|xge",
+				"arcane gate",
+				"find familiar"
+			]
+		},
+		{
+			"name": "Cloak of Planar Unbinding",
+			"source": "TinyMagus",
+			"page": 11,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"curse": true,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d6 + 4}",
+			"charges": 10,
+			"entries": [
+				"This cloak of brilliant blue fabric embedded with golden thread and glistening weave embroidered with dozens of patterns representing the flow of the astral and its place among the worlds.",
+				"Inside the cloak are various shapes and color pools glistening with potential. While wearing the cloak. you can use an action to reach inside one of the pools, out of which you pull a nonmagical item which value doesn't exceed 10x your proficiency bonus (rolled if dice), the value of which is deducted from the remaining potential of the cloak, Items become unstable when more than 100 feet away from the cloak and vanish",
+				"Additionally, the items may have otherworldly properties depending on their plane of origin.",
+				{
+					"type": "entries",
+					"name": "Dormant",
+					"entries": [
+						"While attuned to the cloak in its dormant state, your AC increases by 1. represented by you occasionally not being there.",
+						"The cloak has 10 charges. The cloak regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the cloak shifts and drags you to a random plane. On a 20, the cloak regains {@dice 1d4 + 1} charges."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells",
+					"entries": [
+						"While attuned to this cloak, you can expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: {@spell find familiar} (1 charge \"The creature summoned is of random origin and last for until the end of a long rest\" ), {@spell misty step} (2 charges), {@spell dimension door} (4 charges), {@spell far step|XGE} (5 charges), {@spell arcane gate} (6 charges)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Between the cracks",
+					"entries": [
+						"While you are attuned to this cloak, you can speak its command word as an action to gain the effect of the {@spell etherealness} spell, which lasts until you lose {@status concentration}. This property cannot be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"Once attuned the cloak becomes your anchor, your place is nowhere and everywhere its threads are all that hold you in from sinking in the deepest reaches of the astral depths. Unattuning is an ill-advised action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unraveling",
+					"entries": [
+						"While attuned to this item you are more a more conductive target to conjuration magic, both willing and not. You have disadvantage against spells and effects that would teleport you."
+					]
+				}
+			],
+			"attachedSpells": [
+				"etherealness",
+				"misty step",
+				"dimension door",
+				"far step|xge",
+				"arcane gate",
+				"find familiar"
+			]
+		},
+		{
+			"name": "Aetherchain \"Icarus\" Siege Ballista",
+			"source": "TinyMagus",
+			"page": 10,
+			"baseItem": "Siege Balista",
+			"edition": "classic",
+			"type": "R",
+			"rarity": "very rare",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [],
+			"range": "300/1200",
+			"dmg1": "6d10",
+			"dmgType": "magical piercing",
+			"bonusWeaponAttack": "+6",
+			"entries": [
+				{
+					"type": "list",
+					"name": "Siege Balista:",
+					"items": [
+						"Crew: 2-3",
+						"Armor Class: 15",
+						"Hit Points: 50",
+						"Damage Threshold: 15"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Icarus Bolt",
+					"entries": [
+						"Ranged Weapon {@action Attack|XPHB}: +6 to hit, range 300/1200 ft., one target. Hit: 33 ({@damage 6d10}) piercing damage.",
+						"It takes 1 action to load the ballista (Unless the repeater is filled), 1 action to aim it, and 1 action to fire it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Earthbind Chain",
+					"entries": [
+						"When a bolt strikes, it releases a pulse of anti-flight magic, forming a 15-foot-radius sphere of ethereal chains that shimmer with verdant energy. These chains coil around flying creatures, seeking to drag them to the ground. Each affected creature must make a DC 17 Constitution saving throw or lose its flying speed for 1 minute, causing them to plummet. At the end of each of its turns, the creature can attempt to break free by succeeding on another Constitution saving throw.",
+						"However, if the creature is also marked by a Wingburn Rune, the chains tighten, making escape much more difficult"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wingburn Rune",
+					"entries": [
+						"When a creature's flying speed is reduced by the bolt, a binding sigil branded and more chains appear on the creature. The creature must succeed on a DC 17 Wisdom saving throw or suffer the effects of the rune for 1 minute. While the rune is active, the target cannot regain any lost flying speed, and all flight-granting spells or abilities become nullified.",
+						"If a creature already affected by a Wingburn Rune is hit by another bolt, it must make a new Wisdom saving throw. Each failed save extends the rune's duration by 1 minute, with multiple runes reinforcing each other to ensure the target remains grounded. When a creature bears 10 or more wingburn runes all flight is sealed for 24 hours."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ammunition Specialties:",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Vial-Pierce Tips, Bolts are fitted with elixir-infused tips, allowing them to deliver additional alchemical effects upon impact. The type of elixir used can vary.",
+								"Aetherbind Tips, These bolts are designed to enhance the effects of the Earthbind Chains by creating additional chains that wrap around the creature. If the initial Earthbind effect succeeds, the creature must make a secondary Strength saving throw (DC 17) or have its movement speed (both on the ground and in the air) reduced to zero for {@dice 1d4} rounds. This effect can stack with the Wingburn Rune for even more debilitating effects on the target's mobility."
+							]
+						}
+					]
+				}
+			],
+			"ammoType": "arrow|phb"
+		},
+		{
+			"name": "Nightowl's Folly",
+			"source": "TinyMagus",
+			"page": 1,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This intricately designed silver pendant features a series of gears and clockwork components, each delicately inlaid with faintly glowing runes. When worn, it pulses with energy that drives the wearer to keep working, never wanting to rest.",
+				{
+					"type": "entries",
+					"name": "Late Nights:",
+					"entries": [
+						"While wearing the Nightowl's Folly, you no longer need sleep. Instead of resting for 8 hours, you must spend 4 hours in a state of focused activity (such as crafting, studying, or working). During this time, you remain fully aware of your surroundings and can take normal actions. You gain the benefits of a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Insominia:",
+					"entries": [
+						"For each day you go without any sleep, you must make a DC 10 + 1 per day of consecutive use Constitution saving throw to avoid the effects of {@condition exhaustion}. On a failed save, you gain one level of {@condition exhaustion}. The DC resets each time you take a long rest (sleeping or otherwise)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Compulsive Completion:",
+					"entries": [
+						"When you attempt to remove the Nightowl's Folly, you must make a Wisdom saving throw (DC 15). On a failure, you are overcome by the need to finish the current task you are working on, convinced it is almost complete. You cannot remove the amulet until you believe the task is finished, which may cause you to keep working far beyond a reasonable time frame. On a success, you can remove the amulet as normal."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gloves of the Master Artisan",
+			"source": "TinyMagus",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": "by an artificer",
+			"reqAttuneTags": [
+				{
+					"class": "artificer|tce"
+				}
+			],
+			"wondrous": true,
+			"bonusWeaponAttack": "+1",
+			"entries": [
+				"These gloves are made from supple yet resilient leather, embossed with faintly glowing arcane symbols related to craftsmanship and infused with traces of mithral and dragon scales. When worn, the gloves feel snug and warm, as if guiding your hands to deftly work with tools and materials.",
+				{
+					"type": "entries",
+					"name": "Enhanced Crafting Efficiency:",
+					"entries": [
+						"While wearing these gloves, your natural talent is amplified, allowing you to complete mundane items in half the time it would normally take. For magical items, the gloves reduce the crafting time by 25% (rounded up) without sacrificing quality."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Master's Rush:",
+					"entries": [
+						"Once per day, you may double the progress made on a single crafting project during over the course of 4 hours, representing an exceptional breakthrough or inspired creativity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Material Refinement:",
+					"entries": [
+						"The gloves have a subtle enchantment that enhances your skill in refining materials. When crafting, you may reduce the material cost for either mundane or magical items by 10%, thanks to the gloves' ability to minimize waste and improve the quality of each component.",
+						"Additionally, you gain advantage on skill checks related to assessing, appraising, or refining raw materials (such as {@skill Arcana} or {@skill Investigation} checks)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Imbue Minor Enchantment:",
+					"entries": [
+						"Twice each day, you can use the gloves to temporarily imbue a non-magical item with one of the following effects. The effect lasts for up to 24 hours or until dispelled. If the same effect is repeated each day for a month the effect becomes permenant or until dispelled. Choose from the following options:",
+						{
+							"type": "list",
+							"items": [
+								"Sturdiness, The item gains +1 AC if it is armor, or advantage on saves against being broken if it is a tool.",
+								"Keen Edge, A weapon gains +1 to attack rolls. Additionally, the weapon's critical hit range is increased by 1.",
+								"Tool of Precision, Any tool gains a +1 bonus to skill checks when used.",
+								"Arcane Amplification, A magical item gains +1 to its save DC or +1 to attack rolls for 24 hours.",
+								"Elemental Coating, The item gains resistance to one damage type chosen when imbued (e.g., fire, cold, lightning, acid, or thunder). If the item is armor or a shield, it also grants resistance to that damage type for the wearer. If the item is a weapon, it deals {@damage 1d4} damage of that type on a successful hit.",
+								"Lightfoot, The item's weight is reduced to one fourth, making it easier to carry or wear, If it's armor, the wearer's movement is less encumbered, reducing the penalty to movement and stealth caused by heavy armor. If it's a weapon, it loses the heavy property if it had it if not it gains the light property during this time.",
+								"Mend and Repair, A tool or armor can be instantly repaired, restoring {@dice 1d6} + Intelligence modifier hit points. If the item has this permanent enhancement, it mends itself over 24 hours if unassisted, assuming all pieces are within 5 feet of each other and not disintegrated.",
+								"Resilient Surface, A non-magical item gains a temporary durability boost, making it immune to wear and tear or environmental damage (e.g., weather or rust) for 24 hours.",
+								"Silent Work, A tool or weapon imbued with this effect operates silently, granting advantage on {@skill Stealth} checks when using it."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Crafting Alteration:",
+					"entries": [
+						"Once per long rest, you can use the gloves to temporarily alter the magical properties of a magic item. The change lasts for 1 hour and may include one of the following options:",
+						{
+							"type": "list",
+							"items": [
+								"Attribute Shift, Change the bonus granted by a magic weapon or armor (e.g., change +1 to +2 or change resistance/damage to another).",
+								"Cursed Item Purging, Remove or alter a curse or negative effect on a magic item, making it temporarily function without its detrimental effects.",
+								"Enhance Elemental {@variantrule Damage|XPHB}, If the item already deals elemental damage (fire, cold, lightning, etc.), increase the damage die of that type by one step ({@dice 1d6} becomes {@dice 1d8}, for example) for the duration.",
+								"Divine Infusion, Temporarily change the nature of a magic item to be blessed, causing it to grant advantage on saving throws against being controlled, {@condition charmed}, or {@condition frightened} while attuned to it.",
+								"Power Surge, Boost the effects of a magical ability for 1 hour (e.g., an item's once-per-day use of a spell can be used twice in that hour)."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hat of Essential Comforts",
+			"source": "TinyMagus",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": "by zanth",
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Description",
+					"entries": [
+						"This wide-brimmed, weathered hat is crafted from durable, deep navy and charcoal fabric, with a faintly glowing sigil embroidered along the inner rim. Although unassuming in appearance, it holds a range of practical magical abilities designed for those who need to prepare for the mundane challenges of the world."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Properties:",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Weathered Protection, While wearing the hat, it grants the wearer advantage on saving throws to avoid environmental hazards caused by weather (extreme cold, intense heat, or strong wind). The hat magically adjusts its temperature to keep the wearer comfortable in harsh weather conditions.",
+								"Feathered Escape, Once per day, you can activate the magic in the hat to cast {@spell Feather Fall} on yourself as a reaction. The magic causes the wearer to gently descend at a safe, controlled rate, protecting them from falling damage.",
+								"Breath of the Depths, The hat grants the wearer the ability to breathe underwater for up to 1 hour. This can be used once per long rest.",
+								"Pocket of Snacks and Secrets (Bag of Holding), The hat contains an extra-dimensional space capable of holding up to 125 lbs of material, with a maximum volume of 16 cubic feet. Any food stored in the extra-dimensional space remains perfectly fresh and free of spoilage.",
+								"Hydration, Once per day, the hat can create a small, magical water skin filled with fresh water, enough to sustain one person for 1 day. The water replenishes itself every 24 hours at dawn."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vespera's Quirk (Accidental Sentience)",
+					"entries": [
+						"The brim of the hat occasionally shifts and ripples responding to stimuli of its environment, giving it a life of its own."
+					]
+				}
+			],
+			"attachedSpells": [
+				"feather fall"
+			]
+		},
+		{
+			"name": "Gloves of the Spellblade",
+			"source": "TinyMagus",
+			"page": 1,
+			"rarity": "rare",
+			"reqAttune": "by a warlock",
+			"reqAttuneTags": [
+				{
+					"class": "warlock"
+				}
+			],
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Meld of Magic and Steel:",
+					"entries": [
+						"When casting a spell with a spell attack, you can as a bonus action to make a weapon attack, adding your spellcasting modifier to the damage"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Infusion:",
+					"entries": [
+						"As part of your attack action, you may choose to infuse a single-target spell that has a spell attack into your melee weapon strike. On a hit, the attack deals the weapon's normal damage plus the damage of the spell. The spell or cantrip's additional effects also occur on a successful hit.",
+						"This expends spellslots, but does not trigger Meld of Magic and Steel"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Empowered Smite:",
+					"entries": [
+						"Once per long rest, when you infuse a spell or cantrip into your weapon strike, you may choose to empower the strike. The weapon's damage is doubled (including both weapon and spell damage), and the target has disadvantage on any saving throw made to avoid the spell's additional effects. You must activate this before knowing if the attack would land, the damage increase does not stack with critical hits"
+					]
+				}
+			]
+		},
+		{
+			"name": "Adamantine Dragongaurd Plate",
+			"source": "TinyMagus",
+			"type": "HA",
+			"rarity": "very rare",
+			"weight": 65,
+			"ac": 18,
+			"strength": "15",
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Adamantine",
+					"entries": [
+						"This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dragongaurd",
+					"entries": [
+						"This armor is reinforced with the scales of a red dragon. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.",
+						"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest red dragon within 30 miles of you. This special action can't be used again until the next dawn."
+					]
+				}
+			],
+			"page": 150,
+			"reqAttune": true,
+			"bonusAc": "+1",
+			"bonusSavingThrow": "+1"
+		},
+		{
+			"name": "Arcane Rifle, Vial Shot",
+			"source": "TinyMagus",
+			"page": 1,
+			"baseItem": "hunting rifle",
+			"type": "R",
+			"rarity": "uncommon",
+			"weight": 8,
+			"weaponCategory": "martial",
+			"property": [
+				"AF|DMG",
+				"RLD",
+				"2H"
+			],
+			"range": "80/240",
+			"reload": 5,
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"firearm": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Elixir Shot:",
+					"entries": [
+						"You make a ranged attack roll using specialized ammunition (taking 1gp per unit and 10 mins to craft).",
+						{
+							"type": "list",
+							"items": [
+								"Injection, on hit the creature takes one {@damage 1d4} piercing damage and receives the elixir's effects.",
+								"Splash, on hit the creature takes one {@damage 1d4} bludgeoning damage and receives the elixir's effects."
+							]
+						},
+						"Against a willing creature: Treat their AC as 10, On hit the target takes no damage and receives the potions effects"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Maintenance:",
+					"entries": [
+						"Whenever you roll a 1-5 on attack rolls with this firearm, it misfires. Roll on the misfire table ({@dice d20} + misfire count - prof bonus) then add one to your misfire count. at 8 misfires the firearm breaks and can't be used until fixed over the course of a long rest",
+						"You can remove all misfires by making a successful {@item Tinker's Tools|PHB} check (DC equal to 12 + current misfire count) over the course of a short rest."
+					]
+				}
+			],
+			"ammoType": "Firearm Bullet"
+		},
+		{
+			"name": "+2 All Purpose Mithral Gloves",
+			"source": "TinyMagus",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"bonusSpellAttack": "+2",
+			"bonusSpellSaveDc": "+2",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Effiecient Focus:",
+					"entries": [
+						"While wearing these gloves, you gain a +2 bonus to the spell attack rolls and saving throw DCs of your spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "All-Purpose Tool:",
+					"entries": [
+						"As an action, switch the function of the gloves into any type of artisan's tool of your choice (such as {@item Smith's Tools|PHB}, {@item Alchemist's Supplies|PHB}, {@item Tinker's Tools|PHB}, etc.).",
+						"The gloves create energy specters of tools as the artisan needs them. While using these tools, you are proficient with them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grasping at Formulas:",
+					"entries": [
+						"As an action, you can focus on the gloves and imagine the formula for recreating a magical force. You can choose a cantrip from any class list that you don't already know. For the next 8 hours, you can cast that cantrip as if it were an Artificer cantrip.",
+						"Once this property is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Battle Ready Grip:",
+					"entries": [
+						"When wearing the gloves, you can channel magical energy into a metal weapon you are holding. As a bonus action, you can imbue the weapon with raw arcane force.",
+						{
+							"type": "list",
+							"items": [
+								"The weapon becomes magical and an extension of the gloves for one minute. For that duration, you can use your spellcasting ability for the attack and damage rolls of attacks using that weapon, and the weapon's damage die becomes a Xd8. If the attack deals damage, it can be Force damage or the weapon's normal damage type (your choice).",
+								"The weapon must be partially made of metal for this enhancement to work. Non-metal weapons cannot hold the energy required and may be damaged."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "+1 Longbow",
+			"source": "TinyMagus",
+			"type": "R",
+			"rarity": "uncommon",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb",
+			"entries": [],
+			"page": 213,
+			"bonusWeapon": "+1"
+		}
+	],
+	"feat": [
+		{
+			"name": "Wings of Mercuria",
+			"source": "TinyMagus",
+			"page": 1,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Aasimar"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You learn to call on the radiant glow of Mercuria and stand between those who would harm those dear to you. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Angelic Flight. Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor. As long as you are grounded and your wings are free, you gain 1 AC.",
+						"Shielding Wings. As a reaction to an ally being hit with an attack, you may move up to half your speed. If you end this movement within 5 feet of the targeted creature, the creature's AC is increased by 2 (including against the triggering attack) and your AC is decreased by 2 until the end of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Strike of the Nature Giants",
+			"source": "TinyMagus",
+			"page": 19,
+			"prerequisite": [
+				{
+					"proficiency": [
+						{
+							"weaponGroup": "martial"
+						}
+					]
+				},
+				{
+					"background": [
+						{
+							"name": "Giant Foundling",
+							"displayEntry": "{@background Giant Foundling|BGG}"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You have absorbed primeval magic that gives you an echo of the might of giants. Once per turn, when you hit a target with a melee weapon attack or a ranged weapon attack using a thrown weapon, you can imbue the attack with piercing thorns that ensnare your target:",
+				{
+					"type": "entries",
+					"name": "Nature Strike",
+					"entries": [
+						"The target takes an extra {@damage 1d6} piercing damage. If the target is a creature, it must succeed on a Strength saving throw or be restrained until the start of its next turn."
+					]
+				}
+			]
+		}
+	],
+	"language": [
+		{
+			"name": "Sylvan Language and Script",
+			"source": "TinyMagus",
+			"page": 6,
+			"type": "exotic",
+			"typicalSpeakers": [
+				"{@filter fey creatures|bestiary|type=fey|source=ERLW}"
+			],
+			"script": "Elvish"
+		}
+	],
+	"monster": [
+		{
+			"name": "Giant Rimewing",
+			"size": ["L"],
+			"type": "beast",
+			"source": "TinyMagus",
+			"page": 178,
+			"alignment": ["U"],
+			"ac": [13],
+			"hp": { "formula": "6d8 + 12", "average": 39 },
+			"speed": { "walk": 25, "fly": 60, "canHover": false },
+			"str": 21, "dex": 16, "con": 15, "int": 3, "wis": 10, "cha": 10,
+			"skill": { "perception": "+2", "stealth": "+5" },
+			"immune": ["cold"],
+			"passive": 12,
+			"cr": "3",
+			"senses": ["darkvision 60 ft."],
+			"trait": [
+				{
+					"name": "Antennae",
+					"entries": ["The giant moth has advantage on Wisdom ({@skill Perception}) checks that rely on smell."]
+				}
+			],
+			"action": [
+				{
+					"name": "Proboscis",
+					"entries": ["{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage."]
+				},
+				{
+					"name": "Frosted Wings (1/Day)",
+					"entries": ["A 30-foot radius cloud of colorful ice crystals extends from the rimewing. Each creature in that area must succeed on a {@dc 12} Wisdom saving throw or be {@condition charmed} by the rimewing for 1 minute. While {@condition charmed} by the rimewing, a creature is {@condition incapacitated} and must move up to its speed toward the rimewing at the start of its turn, stopping when it is 5 feet away. A {@condition charmed} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/CCodex/rimewing.jpg"
+						}
+					}
+				],
+				"entries": [
+					"{@i The wings of this giant moth resemble a stunningly complex snowflake. Its long icicle-shaped antennae click and clatter as it flies across the snowy northern woods.}",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Captivating",
+										"entries": ["Rimewings are prized for their wings, which feature a magically compelling pattern and coloration. They are found in cold and snow-covered climes, where they use their magic to draw in prey."]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/CCodex/rimewing_token.png",
+			"environment": ["arctic", "forest"],
+			"miscTags": ["MW", "AOE"],
+			"damageTags": ["P"],
+			"senseTags": ["D"],
+			"conditionInflict": ["charmed", "incapacitated"]
+		},
+		{
+			"name": "Cirsium Thornbloom",
+			"shortName": "Thornbloom",
+			"group": ["Fey"],
+			"isNpc": true,
+			"source": "TinyMagus",
+			"page": 2,
+			"size": "L",
+			"type": { "type": "fey", "tags": ["archfey"] },
+			"alignment": [
+				{ "alignment": ["L", "G"] },
+				{ "alignment": ["L", "N"] }
+			],
+			"ac": [{ "ac": 22, "condition": "Barklike hide", "braces": true }],
+			"hp": { "formula": "20d10 + 100", "average": 210 },
+			"speed": { "walk": 50, "burrow": 50 },
+			"str": 16, "dex": 26, "con": 21, "int": 18, "wis": 30, "cha": 23,
+			"save": { "wis": "+17", "cha": "+13", "dex": "+15" },
+			"skill": { "performance": "+20", "insight": "+17", "persuasion": "+13", "deception": "+13" },
+			"senses": ["Truesight 120 ft.", "blindsight 120 ft."],
+			"passive": 20,
+			"resist": [
+				"cold", "necrotic", "poison",
+				{ "resist": ["bludgeoning", "piercing", "slashing"], "note": "from nonmagical attacks" }
+			],
+			"immune": ["psychic"],
+			"conditionImmune": ["blinded", "charmed", "exhaustion", "frightened"],
+			"languages": ["Common", "Deep Speech", "Sylvan", "Telepathy"],
+			"cr": "23",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Archfey is an 20th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 25}, +17 to hit with spell attacks).",
+						"Cirsium has the following spells prepared:"
+					],
+					"spells": {
+						"0": { "spells": ["{@spell chill touch}", "{@spell eldritch blast}", "{@spell mind sliver|TCE}", "{@spell sapping sting|EGW}", "{@spell thorn whip}", "{@spell thaumaturgy}", "{@spell spare the dying} as a bonus action (range 30 ft.)"] },
+						"1": { "spells": ["{@spell cause fear|XGE}", "{@spell detect magic}", "{@spell dissonant whispers}", "{@spell fog cloud}", "{@spell hail of thorns}", "{@spell hex}", "{@spell inflict wounds}", "{@spell Tasha's hideous laughter}"], "slots": 4 },
+						"2": { "spells": ["{@spell blindness/deafness}", "{@spell crown of madness}", "{@spell darkness}", "{@spell enlarge/reduce}", "{@spell moonbeam}", "{@spell phantasmal force}", "{@spell wither and bloom|SCC}"], "slots": 3 },
+						"3": { "spells": ["{@spell bestow curse}", "{@spell conjure barrage}", "{@spell counterspell}", "{@spell dispel magic}", "{@spell enemies abound|XGE}", "{@spell fear}", "{@spell remove curse}", "{@spell revivify}", "{@spell speak with dead}"], "slots": 3 },
+						"4": { "spells": ["{@spell banishment}", "{@spell blight}", "{@spell compulsion}", "{@spell grasping vine}", "{@spell guardian of nature|XGE}", "{@spell phantasmal killer}", "{@spell sickening radiance|XGE}", "{@spell summon aberration|TCE}"], "slots": 3 },
+						"5": { "spells": ["{@spell animate objects}", "{@spell dominate person}", "{@spell dream}", "{@spell geas}", "{@spell greater restoration}", "{@spell hallow}", "{@spell legend lore}", "{@spell modify memory}", "{@spell negative energy flood|XGE}", "{@spell seeming}", "{@spell wrath of nature|XGE}"], "slots": 3 },
+						"6": { "spells": ["{@spell circle of death}", "{@spell disintegrate}", "{@spell mental prison|XGE}", "{@spell Otto's irresistible dance}", "{@spell scatter|XGE}"], "slots": 2 },
+						"7": { "spells": ["{@spell crown of stars|XGE}", "{@spell finger of death}", "{@spell forcecage}", "{@spell power word pain|XGE}"], "slots": 2 },
+						"8": { "spells": ["{@spell antipathy/sympathy}", "{@spell feeblemind}", "{@spell maddening darkness|XGE}", "{@spell maze}", "{@spell reality break|EGW}"], "slots": 1 },
+						"9": { "spells": ["{@spell imprisonment}", "{@spell psychic scream|XGE}", "{@spell weird}"], "slots": 1 }
+					},
+					"daily": { "1": ["{@spell greater invisibility}"] },
+					"will": ["{@spell bane}", "{@spell command}", "{@spell demiplane}"],
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{ "name": "Fey Rebirth.", "entries": ["If Cirsium dies in its Domain of Delight, it revives with all its hit points {@dice 1d4} days later in a safe location in that domain."] },
+				{ "name": "Thorny hide.", "entries": ["At the start of each of its turns, thornbloom deals 5 ({@dice 1d10}) piercing damage to any creature grappling it."] },
+				{ "name": "Otherwordly Awareness", "entries": ["Cirsium knows if it hears a lie."] },
+				{ "name": "Consume Life", "entries": ["As a bonus action, Cirsium can target one creature it can see within 5 feet of it that has 0 hit points and is still alive. The target must succeed on a {@dc 26} Constitution saving throw against this magic or die. If the target dies, Cirsium regains 36 ({@dice 8d8}) hit points and the target can't be revived by any means short of a {@spell wish} spell or Cirsium himself"] }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["The Cirsium uses Enervating Focus twice, or it uses Enervating Focus and Finger of Doom, if available."] },
+				{ "name": "Enervating Focus", "entries": ["{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}33 ({@damage 6d8 + 10}) necrotic damage. The target must succeed on a {@dc 25} Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest."] },
+				{ "name": "Finger of Doom {@recharge}", "entries": ["The nightwalker points at one creature it can see within 300 feet of it. The target must succeed on a {@dc 25} Wisdom saving throw or take 32 ({@damage 5d12}) necrotic damage and become {@condition frightened} until the end of the nightwalker's next turn. While {@condition frightened} in this way, the creature is also {@condition paralyzed}. If a target's saving throw is successful, the target is immune to the nightwalker's Finger of Doom for the next 24 hours."] }
+			],
+			"reaction": [
+				{ "name": "Masochisms", "entries": ["Whenever Cirsium is subjected to any form of damage, it takes no damage and instead regains a number of hit points equal to the damage dealt."] }
+			],
+			"legendaryHeader": [],
+			"legendaryActions": 3,
+			"environment": ["feywild"],
+			"fluff": {
+				"entries": [
+					"### Personality",
+					"**Mercurial.** The archfey has three personalities, shifting between them at certain times or when certain conditions are met.",
+					"**Madcap.** The archfey loves to sing, dance, drink, wear silly masks, do cartwheels, and throw parties where everyone is free to cavort and revel how they wish.",
+					"**Mischievous.** The archfey is a trickster who likes to confound and frustrate visitors to their domain.",
+					"**Wild.** The archfey has the demeanor of a wild animal and shuns the trappings of society.",
+					"### Domain",
+					"Looks like a normal forest, but covered in green thorny vines. Will'o'Wisps fill the domain, all non-aggressive unless attacked."
+				],
+				"images": [
+					{ "type": "image", "href": { "type": "external", "url": "https://i.pinimg.com/originals/7f/17/4d/7f174dbf5e2846ac279ad25ffb62361b.jpg" } }
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/DEhmgmS.png",
+			"senseTags": ["B", "U"],
+			"actionTags": ["Multiattack"],
+			"languageTags": ["C", "DS", "S"],
+			"damageTags": ["N", "P"],
+			"miscTags": ["MW", "RCH"],
+			"conditionInflict": ["frightened", "paralyzed"]
+		},
+		{
+			"name": "Iris",
+			"shortName": "Iris",
+			"group": ["Fey"],
+			"isNpc": true,
+			"source": "TinyMagus",
+			"page": 2,
+			"size": "G",
+			"type": { "type": "fey", "tags": ["archfey"] },
+			"alignment": [
+				{ "alignment": ["L", "G"] },
+				{ "alignment": ["L", "N"] }
+			],
+			"ac": [13],
+			"hp": { "formula": "20d20 + 200", "average": 410 },
+			"speed": { "walk": 50 },
+			"str": 26, "dex": 16, "con": 30, "int": 23, "wis": 21, "cha": 16,
+			"save": { "str": "+16", "wis": "+13", "con": "+18" },
+			"skill": { "arcana": "+22", "stealth": "+11", "performance": "+11", "investigation": "+14", "perception": "+13" },
+			"senses": ["Truesight 120 ft.", "Blindsight (Everywhere in its domain) ft."],
+			"passive": 23,
+			"resist": ["lightning", "necrotic"],
+			"immune": [
+				"poison",
+				{ "immune": ["bludgeoning", "piercing", "slashing"], "note": "from nonmagical attacks" }
+			],
+			"vulnerable": [
+				{ "vulnerable": ["bludgeoning", "thunder"], "preNote": "When in solid form," }
+			],
+			"conditionImmune": ["blinded", "charmed", "deafened", "exhaustion", "grappled", "incapacitated", "poisoned", "prone", "restrained", "unconscious"],
+			"languages": ["Common", "Deep Speech", "Sylvan", "Telepathy (When touching any of the liquid)"],
+			"cr": "25",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Archfey is an 20th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 22}, +14 to hit with spell attacks).",
+						"Iris has the following spells prepared:"
+					],
+					"spells": {
+						"0": { "spells": ["{@spell dancing lights}", "{@spell druidcraft}", "{@spell guidance}", "{@spell prestidigitation}"] },
+						"1": { "spells": ["{@spell ceremony|XGE}", "{@spell chromatic orb}", "{@spell color spray}", "{@spell detect magic}", "{@spell faerie fire}", "{@spell protection from evil and good}"], "slots": 4 },
+						"2": { "spells": ["{@spell enlarge/reduce}", "{@spell enthrall}", "{@spell mirror image}", "{@spell suggestion}"], "slots": 3 },
+						"3": { "spells": ["{@spell counterspell}", "{@spell dispel magic}", "{@spell hypnotic pattern}", "{@spell summon fey|TCE}"], "slots": 3 },
+						"4": { "spells": ["{@spell confusion}", "{@spell conjure woodland beings}", "{@spell hallucinatory terrain}"], "slots": 3 },
+						"5": { "spells": ["{@spell awaken}", "{@spell dream}", "{@spell legend lore}", "{@spell mislead}"], "slots": 3 },
+						"6": { "spells": ["{@spell conjure fey}", "{@spell contingency}", "{@spell eyebite}", "{@spell heroes' feast}", "{@spell mass suggestion}", "{@spell word of recall}"], "slots": 2 },
+						"7": { "spells": ["{@spell dream of the blue veil|TCE}", "{@spell prismatic spray}"], "slots": 2 },
+						"8": { "spells": ["{@spell antimagic field}", "{@spell antipathy/sympathy}", "{@spell feeblemind}", "{@spell maze}", "{@spell mighty fortress|XGE}"], "slots": 1 },
+						"9": { "spells": ["{@spell astral projection}", "{@spell foresight}", "{@spell imprisonment}", "{@spell prismatic wall}", "{@spell wish}"], "slots": 1 }
+					},
+					"daily": { "1": ["{@spell clone}"] },
+					"will": ["{@spell animal friendship}", "{@spell identify}", "{@spell primordial ward|XGE}", "{@spell simulacrum} As an action (shortened duration)", "{@spell tongues}", "{@spell true polymorph}"],
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{ "name": "Fey Rebirth.", "entries": ["If Iris dies in its Domain of Delight, it revives with all its hit points {@dice 1d4} days later in a safe location in that domain."] },
+				{ "name": "Liquid Form", "entries": ["Iris can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."] },
+				{ "name": "False Appearance", "entries": ["While Iris remains motionless, it is indistinguishable from whatever it forms into."] },
+				{ "name": "Evasion", "entries": ["If Iris is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Iris instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."] }
+			],
+			"action": [
+				{ "name": "Multiattack", "entries": ["Whenever Iris takes the attack action it makes three attacks."] },
+				{ "name": "Bite", "entries": ["{@atk mw} {@hit 16} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d10 + 8}) damage."] },
+				{ "name": "Claw", "entries": ["{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}10 ({@damage 2d6 + 8}) damage."] },
+				{ "name": "Blinding Ooze.", "entries": ["Iris exhales a black ooze in a 90-foot cone. Each creature in that area must succeed on a {@dc 26} Dexterity saving throw. On a failed save, the creature is {@condition blinded} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save."] }
+			],
+			"legendaryHeader": [],
+			"legendaryActions": 3,
+			"environment": ["feywild"],
+			"fluff": {
+				"entries": [
+					"## Archfey Seelie, Ancient Monstrous",
+					"Can turn into liquid whenever it's touching one of the pools, and teleport around.",
+					"### Domain",
+					"Various areas have different hues. Mushrooms, candy barbed vines, butterflies, lanterns, archways over white cobblestone paths.",
+					"Constructed black ooze pool in the middle. Tastes like licorice. Wax castle that forms a solid bridge from the ooze."
+				],
+				"images": [
+					{ "type": "image", "href": { "type": "external", "url": "https://i.imgur.com/3U8vxwP.png" } }
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/TnTKj0p.png",
+			"traitTags": ["False Appearance"],
+			"senseTags": ["B", "U"],
+			"actionTags": ["Multiattack"],
+			"languageTags": ["C", "DS", "S"],
+			"miscTags": ["AOE", "MW", "RCH"],
+			"conditionInflict": ["blinded"]
+		},
+		{
+			"name": "Dream",
+			"source": "TinyMagus",
+			"page": 235,
+			"size": "L",
+			"type": "celestial",
+			"alignment": ["N", "G"],
+			"ac": [{ "ac": 12, "from": ["natural armor"] }],
+			"hp": { "average": 68, "formula": "8d10 + 24" },
+			"speed": { "walk": 60, "fly": 90 },
+			"str": 18, "dex": 15, "con": 16, "int": 10, "wis": 15, "cha": 13,
+			"save": { "dex": "+4", "wis": "+4", "cha": "+3" },
+			"skill": { "perception": "+6" },
+			"passive": 16,
+			"immune": ["radiant"],
+			"languages": ["understands Celestial", "Common", "Elvish", "and Sylvan but can't speak"],
+			"cr": "3",
+			"trait": [
+				{ "name": "Confer Radiant Resistance", "entries": ["The dream can grant resistance to radiant damage to anyone riding it."] },
+				{ "name": "Illumination", "entries": ["The dream sheds bright light in a 10-foot radius and dim light for an additional 10 feet."] }
+			],
+			"action": [
+				{ "name": "Hooves", "entries": ["{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage plus 7 ({@damage 2d6}) radiant damage."] },
+				{ "name": "Ethereal Stride", "entries": ["The dream and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa."] }
+			],
+			"fluff": {
+				"entries": [
+					"A dream appears in a brilliant shine, its mane, tail, and hooves wreathed in sacred light. The creature's heavenly white form moves with supernatural speed.",
+					{
+						"name": "Holy Steed",
+						"type": "entries",
+						"entries": ["Also called a \"Celestial Horse\" or \"Blessed Steed,\" the dream serves as a steed for creatures of boundless benevolence, carrying celestials, archliches, elves, fey, and other good beings."]
+					},
+					{
+						"name": "Creating a Dream",
+						"type": "entries",
+						"entries": ["Dreams don't appear naturally in the multiverse. They must be created from pegasi. The event that creates a dream requires the pegasus to abandon its excessive pride linked to its wings, ascending the noble creature to greater heights as it embodies radiance and beauty."]
+					}
+				],
+				"images": [
+					{ "type": "image", "href": { "type": "external", "url": "https://i.imgur.com/W1zupfW.png" } }
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/bEJn4Rl.png",
+			"soundClip": { "type": "external", "url": "https://5e.tools/audio/bestiary/nightmare.mp3" },
+			"traitTags": ["Illumination"],
+			"languageTags": ["C", "CE", "CS", "E", "S"],
+			"damageTags": ["B", "R"],
+			"miscTags": ["AOE", "MW"],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Pet Vulture",
+			"size": ["M"],
+			"type": "beast",
+			"source": "TinyMagus",
+			"alignment": ["N"],
+			"ac": [10],
+			"hp": { "formula": "3d8 + 3", "average": 16 },
+			"speed": { "walk": 10, "fly": 50, "canHover": false },
+			"str": 12, "dex": 10, "con": 13, "int": 4, "wis": 14, "cha": 4,
+			"passive": 14,
+			"cr": "1/4",
+			"shortName": "Vulture",
+			"page": 1,
+			"skill": { "perception": "+4" },
+			"trait": [
+				{ "name": "Keen Sight and Smell", "entries": ["The vulture has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."] },
+				{ "name": "Pack Tactics", "entries": ["The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."] }
+			],
+			"traitTags": ["Keen Senses", "Pack Tactics"],
+			"damageTags": ["P"],
+			"environment": ["desert", "forest", "hill"],
+			"action": [
+				{ "name": "Beak", "entries": ["{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) piercing damage."] },
+				{ "name": "Talons", "entries": ["{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) piercing damage."] }
+			],
+			"miscTags": ["MW"],
+			"tokenUrl": "https://i.imgur.com/CGk5bq6.png",
+			"fluff": {
+				"images": [
+					{ "type": "image", "href": { "type": "external", "url": "https://i.imgur.com/CGk5bq6.png" } }
+				]
+			}
+		}
+	],
+	"race": [
+		{
+			"name": "Faerie Dragon",
+			"source": "TinyMagus",
+			"page": 0,
+			"lineage": false,
+			"creatureTypes": ["fey", "dragon"],
+			"size": ["S", "T"],
+			"speed": { "walk": 10, "fly": 60 },
+			"additionalSpells": [
+				{
+					"ability": { "choose": ["int", "wis", "cha"] },
+					"known": {
+						"1": ["dancing lights#c", "mage hand#c", "minor illusion#c"]
+					},
+					"innate": {
+						"5": { "daily": { "1": ["invisibility"] } }
+					}
+				}
+			],
+			"entries": [
+				{ "type": "entries", "name": "Creature Type", "entries": ["You are a Fey Dragon. And thus affected by both creature types"] },
+				{ "type": "entries", "name": "Size", "entries": ["You are Tiny. Due to your miniature nature most weapons and armor are unusable by you, additionally your carrying capacity is x4 smaller than a medium sized creature"] },
+				{ "type": "entries", "name": "Flight", "entries": ["You have a flying speed of 60 feet. You cannot use this flying speed if you are wearing armor. In addition, when you take damage while flying, make a Constitution save with a DC equal to 10 or half the damage taken, whichever is higher. If you fail the saving throw, you fall to the ground."] },
+				{
+					"type": "entries",
+					"name": "Faerie Dragon Magic",
+					"entries": [
+						"You know the {@spell dancing lights}, {@spell mage hand}, and {@spell minor illusion} cantrips and can cast them at will.\n\nStarting at 5th level, you learn the {@spell invisibility} spell and may cast it once, targeting only yourself. Once you cast this spell, you may not do so again until you finish a long rest.",
+						"You can also cast either of those spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				},
+				{ "type": "entries", "name": "Darkvision", "entries": ["You can see in {@quickref Vision and Light||2||dim light} within 60 feet of you as if it were {@quickref Vision and Light||2||bright light} and in darkness as if it were {@quickref Vision and Light||2||dim light}. You discern colors in that darkness only as shades of gray."] },
+				{ "type": "entries", "name": "Minor Telepathy", "entries": ["You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time."] },
+				{ "type": "entries", "name": "Euphoric Breath", "entries": ["You can exhale a puff of euphoric gas at one creature within 5 feet of you. The creature must succeed on a Wisdom saving throw with a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature that fails its save cannot take reactions and must roll a {@dice d6} at the start of each of its turns to determine what it must do for that turn. On a roll of 1, the target moves in a random direction and takes no actions or bonus actions. On a 2-5, the target moves in a random direction. On a 6, the target behaves normally for the turn. This effect lasts for 1 minute or until it succeeds on a Wisdom saving throw at the end of its turn. Once you use this feature, you can't do so again until you finish a short or long rest."] },
+				{ "type": "entries", "name": "Languages", "entries": ["You can read, write, and speak Common, Draconic, and Sylvan."] }
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": ["str", "dex", "con", "int", "wis", "cha"],
+							"weights": [2, 1]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": ["str", "dex", "con", "int", "wis", "cha"],
+							"weights": [1, 1, 1]
+						}
+					}
+				}
+			],
+			"languageProficiencies": [
+				{ "common": true, "draconic": true, "sylvan": true }
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "College of the Celestial Lyre",
+			"shortName": "Celestial Lyre",
+			"source": "TinyMagus",
+			"className": "Bard",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"known": {
+						"_": ["spare the dying"],
+						"3": ["cure wounds", "guiding bolt"]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"College of the Celestial Lyre|Bard|PHB|Celestial Lyre|TinyMagus|3|TinyMagus",
+				"Celestial Attention|Bard|PHB|Celestial Lyre|TinyMagus|6|TinyMagus",
+				"Standing Ovation|Bard|PHB|Celestial Lyre|TinyMagus|14|TinyMagus"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "College of the Celestial Lyre",
+			"source": "TinyMagus",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Celestial Lyre",
+			"subclassSource": "TinyMagus",
+			"level": 3,
+			"entries": [
+				"Some bards study magic. Some bards study war. You simply play, and the gods listen. Your art is so transcendent that celestial beings pause in their eternal work to hear you perform, and in their appreciation they reach down to protect and restore whoever stands in your company. You don't wield divine power. You earn it, one note at a time.",
+				{
+					"type": "entries",
+					"name": "Divine Audience",
+					"entries": [
+						"You learn {@spell spare the dying} as a bonus cantrip, and you learn {@spell cure wounds} and {@spell guiding bolt} if you don't already know them. These don't count against your spells known.",
+						"When you cast a spell that restores hit points, a celestial presence lingers on the target briefly. They regain additional hit points equal to your Charisma modifier.",
+						"When you grant a creature Bardic Inspiration, choose one:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Inspired.} They gain the die as normal.",
+								"{@b Blessed.} A celestial moves on their behalf. They immediately regain hit points equal to half the die's maximum value. No roll, no action required."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Celestial Attention",
+			"source": "TinyMagus",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Celestial Lyre",
+			"subclassSource": "TinyMagus",
+			"level": 6,
+			"entries": [
+				"The beings attending your performance have grown fond of those around you.",
+				"When a creature that has your Bardic Inspiration die would be reduced to 0 hit points, they can expend the die as a reaction. A celestial intervenes, leaving them at 1 hit point and granting temporary hit points equal to the roll.",
+				"Additionally, whenever any creature within 30 feet of you receives healing from any source, an attending celestial adds a small blessing to it, restoring an additional {@dice 1d4} hit points. This applies once per spell or feature."
+			]
+		},
+		{
+			"name": "Standing Ovation",
+			"source": "TinyMagus",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Celestial Lyre",
+			"subclassSource": "TinyMagus",
+			"level": 14,
+			"entries": [
+				"You gain two additional Magical Secrets. You must choose from the following: {@spell aura of vitality}, {@spell beacon of hope}, {@spell death ward}, {@spell dawn|XGE}, {@spell heal}, {@spell raise dead}, or {@spell revivify}.",
+				"Once per long rest, as an action, you perform your masterpiece. The gods lean close. For a breathless moment, radiant light descends on every ally within 60 feet as celestial hands tend to their wounds. Each creature of your choice within range regains hit points equal to {@dice 3d8} + your Charisma modifier and is freed from one condition of your choice: blinded, charmed, deafened, frightened, paralyzed, or poisoned.",
+				"For 1 minute afterward, the audience hasn't left yet. Your healing spells deal maximum healing instead of rolling."
+			]
+		}
+	]
+}
