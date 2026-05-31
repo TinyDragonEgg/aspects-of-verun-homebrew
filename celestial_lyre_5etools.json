@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "AspectsOfVerun",
+        "abbreviation": "AoV",
+        "full": "Aspects of Verun",
+        "authors": ["Tiny Dragon"],
+        "convertedBy": ["Tiny Dragon"],
+        "version": "1.0.0",
+        "color": "c9a227"
+      }
+    ],
+    "dateAdded": 1744416000,
+    "dateLastModified": 1744416000
+  },
+  "subclass": [
+    {
+      "name": "College of the Celestial Lyre",
+      "shortName": "Celestial Lyre",
+      "source": "AspectsOfVerun",
+      "className": "Bard",
+      "classSource": "PHB",
+      "additionalSpells": [
+        {
+          "known": {
+            "_": ["spare the dying"],
+            "3": ["cure wounds", "guiding bolt"]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "College of the Celestial Lyre|Bard|PHB|Celestial Lyre|AspectsOfVerun|3|AspectsOfVerun",
+        "Celestial Attention|Bard|PHB|Celestial Lyre|AspectsOfVerun|6|AspectsOfVerun",
+        "Standing Ovation|Bard|PHB|Celestial Lyre|AspectsOfVerun|14|AspectsOfVerun"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "College of the Celestial Lyre",
+      "source": "AspectsOfVerun",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Celestial Lyre",
+      "subclassSource": "AspectsOfVerun",
+      "level": 3,
+      "entries": [
+        "Some bards study magic. Some bards study war. You simply play, and the gods listen. Your art is so transcendent that celestial beings pause in their eternal work to hear you perform, and in their appreciation they reach down to protect and restore whoever stands in your company. You don't wield divine power. You earn it, one note at a time.",
+        {
+          "type": "entries",
+          "name": "Divine Audience",
+          "entries": [
+            "You learn {@spell spare the dying} as a bonus cantrip, and you learn {@spell cure wounds} and {@spell guiding bolt} if you don't already know them. These don't count against your spells known.",
+            "When you cast a spell that restores hit points, a celestial presence lingers on the target briefly. They regain additional hit points equal to your Charisma modifier.",
+            "When you grant a creature Bardic Inspiration, choose one:",
+            {
+              "type": "list",
+              "items": [
+                "{@b Inspired.} They gain the die as normal.",
+                "{@b Blessed.} A celestial moves on their behalf. They immediately regain hit points equal to half the die's maximum value. No roll, no action required."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Celestial Attention",
+      "source": "AspectsOfVerun",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Celestial Lyre",
+      "subclassSource": "AspectsOfVerun",
+      "level": 6,
+      "entries": [
+        "The beings attending your performance have grown fond of those around you.",
+        "When a creature that has your Bardic Inspiration die would be reduced to 0 hit points, they can expend the die as a reaction. A celestial intervenes, leaving them at 1 hit point and granting temporary hit points equal to the roll.",
+        "Additionally, whenever any creature within 30 feet of you receives healing from any source, an attending celestial adds a small blessing to it, restoring an additional {@dice 1d4} hit points. This applies once per spell or feature."
+      ]
+    },
+    {
+      "name": "Standing Ovation",
+      "source": "AspectsOfVerun",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Celestial Lyre",
+      "subclassSource": "AspectsOfVerun",
+      "level": 14,
+      "entries": [
+        "You gain two additional Magical Secrets. You must choose from the following: {@spell aura of vitality}, {@spell beacon of hope}, {@spell death ward}, {@spell dawn|XGE}, {@spell heal}, {@spell raise dead}, or {@spell revivify}.",
+        "Once per long rest, as an action, you perform your masterpiece. The gods lean close. For a breathless moment, radiant light descends on every ally within 60 feet as celestial hands tend to their wounds. Each creature of your choice within range regains hit points equal to {@dice 3d8} + your Charisma modifier and is freed from one condition of your choice: blinded, charmed, deafened, frightened, paralyzed, or poisoned.",
+        "For 1 minute afterward, the audience hasn't left yet. Your healing spells deal maximum healing instead of rolling."
+      ]
+    }
+  ]
+}
