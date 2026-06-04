@@ -6,8 +6,12 @@
 				"abbreviation": "TinyMagus",
 				"full": "TinyMagus",
 				"url": "",
-				"authors": ["Tiny Dragon"],
-				"convertedBy": ["Tiny Dragon"],
+				"authors": [
+					"Tiny Dragon"
+				],
+				"convertedBy": [
+					"Tiny Dragon"
+				],
 				"version": "1.0.0",
 				"color": "c9a227"
 			}
@@ -45,12 +49,13 @@
 			"page": 214,
 			"baseItem": "dagger|PHB",
 			"type": "M",
-			"rarity": "Artifact",
+			"rarity": "artifact",
 			"reqAttune": "by any non-evil creature",
 			"reqAttuneTags": [
 				{
 					"alignment": [
-						"G, N"
+						"G",
+						"N"
 					]
 				}
 			],
@@ -147,9 +152,9 @@
 			"name": "Arcalibur, The Weavecutter",
 			"source": "TinyMagus",
 			"page": 214,
-			"baseItem": "Longsword",
+			"baseItem": "longsword|PHB",
 			"type": "M",
-			"rarity": "Artifact",
+			"rarity": "artifact",
 			"reqAttune": true,
 			"sentient": true,
 			"weight": 3,
@@ -160,7 +165,7 @@
 			"dmg1": "1d8",
 			"dmgType": "S",
 			"dmg2": "1d10",
-			"bonusWeapon": "1",
+			"bonusWeapon": "+1",
 			"sword": true,
 			"weapon": true,
 			"entries": [
@@ -245,16 +250,16 @@
 			"name": "Dawnbringer's, End of Undead",
 			"source": "TinyMagus",
 			"page": 214,
-			"baseItem": "Spear",
+			"baseItem": "spear|PHB",
 			"type": "M",
-			"rarity": "Artifact",
+			"rarity": "artifact",
 			"reqAttune": true,
 			"sentient": true,
 			"weight": 3,
-			"weaponCategory": "Martial",
+			"weaponCategory": "martial",
 			"dmg1": "2d6",
-			"dmgType": "S",
-			"bonusWeapon": "2",
+			"dmgType": "P",
+			"bonusWeapon": "+2",
 			"sword": true,
 			"weapon": true,
 			"entries": [
@@ -273,9 +278,9 @@
 			"name": "Final Dawn",
 			"source": "TinyMagus",
 			"page": 214,
-			"baseItem": "Greatsword",
+			"baseItem": "greatsword|PHB",
 			"type": "M",
-			"rarity": "Artifact",
+			"rarity": "artifact",
 			"reqAttune": true,
 			"sentient": true,
 			"weight": 6,
@@ -286,7 +291,7 @@
 			"dmg1": "2d6",
 			"dmgType": "S",
 			"dmg2": "2d6",
-			"bonusWeapon": "2",
+			"bonusWeapon": "+2",
 			"sword": true,
 			"weapon": true,
 			"entries": [
@@ -308,11 +313,7 @@
 			"name": "Radeus Living Wood Longbow",
 			"source": "TinyMagus",
 			"page": 1,
-			"resist": [
-				"piercing"
-			],
 			"entries": [
-				"Weapon, rare (requires attunement)",
 				"This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat.",
 				{
 					"type": "entries",
@@ -374,15 +375,17 @@
 			],
 			"attachedSpells": [
 				"dominate monster"
-			]
+			],
+			"type": "R",
+			"rarity": "rare",
+			"reqAttune": true
 		},
 		{
 			"name": "Scythe of Lunaris",
 			"source": "TinyMagus",
 			"page": 214,
-			"baseItem": "Scythe",
 			"type": "M",
-			"rarity": "Artifact",
+			"rarity": "artifact",
 			"reqAttune": true,
 			"sentient": true,
 			"weight": 3,
@@ -394,7 +397,7 @@
 			"dmg1": "1d10",
 			"dmgType": "S",
 			"dmg2": "2d10",
-			"bonusWeapon": "2",
+			"bonusWeapon": "+2",
 			"sword": true,
 			"weapon": true,
 			"entries": [
@@ -422,9 +425,8 @@
 			"name": "The Unforgiving",
 			"source": "TinyMagus",
 			"page": 214,
-			"baseItem": "Scythe",
 			"type": "M",
-			"rarity": "Artifact",
+			"rarity": "artifact",
 			"reqAttune": true,
 			"sentient": true,
 			"weight": 3,
@@ -434,7 +436,6 @@
 			],
 			"dmg1": "1d12",
 			"dmgType": "S",
-			"bonusWeapon": "",
 			"sword": true,
 			"weapon": true,
 			"entries": [
@@ -466,7 +467,7 @@
 			"wondrous": true,
 			"curse": true,
 			"recharge": "dawn",
-			"rechargeAmount": "{@dice 1d6 + 4}",
+			"rechargeAmount": "1d6+4",
 			"charges": 10,
 			"entries": [
 				"This robe of brilliant blue fabric embedded with golden thread and glistening weave embroidered with dozens of patterns representing the flow of the astral and its place among the worlds.",
@@ -527,7 +528,7 @@
 			"wondrous": true,
 			"curse": true,
 			"recharge": "dawn",
-			"rechargeAmount": "{@dice 1d6 + 4}",
+			"rechargeAmount": "1d6+4",
 			"charges": 10,
 			"entries": [
 				"This cloak of brilliant blue fabric embedded with golden thread and glistening weave embroidered with dozens of patterns representing the flow of the astral and its place among the worlds.",
@@ -583,7 +584,6 @@
 			"name": "Aetherchain \"Icarus\" Siege Ballista",
 			"source": "TinyMagus",
 			"page": 10,
-			"baseItem": "Siege Balista",
 			"edition": "classic",
 			"type": "R",
 			"rarity": "very rare",
@@ -592,7 +592,7 @@
 			"property": [],
 			"range": "300/1200",
 			"dmg1": "6d10",
-			"dmgType": "magical piercing",
+			"dmgType": "P",
 			"bonusWeaponAttack": "+6",
 			"entries": [
 				{
@@ -840,7 +840,7 @@
 			"rarity": "very rare",
 			"weight": 65,
 			"ac": 18,
-			"strength": "15",
+			"strength": 15,
 			"armor": true,
 			"stealth": true,
 			"entries": [
@@ -875,7 +875,7 @@
 			"weight": 8,
 			"weaponCategory": "martial",
 			"property": [
-				"AF|DMG",
+				"AF",
 				"RLD",
 				"2H"
 			],
@@ -1066,34 +1066,67 @@
 	"monster": [
 		{
 			"name": "Giant Rimewing",
-			"size": ["L"],
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"source": "TinyMagus",
 			"page": 178,
-			"alignment": ["U"],
-			"ac": [13],
-			"hp": { "formula": "6d8 + 12", "average": 39 },
-			"speed": { "walk": 25, "fly": 60, "canHover": false },
-			"str": 21, "dex": 16, "con": 15, "int": 3, "wis": 10, "cha": 10,
-			"skill": { "perception": "+2", "stealth": "+5" },
-			"immune": ["cold"],
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 25,
+				"fly": 60,
+				"canHover": false
+			},
+			"str": 21,
+			"dex": 16,
+			"con": 15,
+			"int": 3,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"perception": "+2",
+				"stealth": "+5"
+			},
+			"immune": [
+				"cold"
+			],
 			"passive": 12,
 			"cr": "3",
-			"senses": ["darkvision 60 ft."],
+			"senses": [
+				"darkvision 60 ft."
+			],
 			"trait": [
 				{
 					"name": "Antennae",
-					"entries": ["The giant moth has advantage on Wisdom ({@skill Perception}) checks that rely on smell."]
+					"entries": [
+						"The giant moth has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
 				}
 			],
 			"action": [
 				{
 					"name": "Proboscis",
-					"entries": ["{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage."]
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage."
+					]
 				},
 				{
 					"name": "Frosted Wings (1/Day)",
-					"entries": ["A 30-foot radius cloud of colorful ice crystals extends from the rimewing. Each creature in that area must succeed on a {@dc 12} Wisdom saving throw or be {@condition charmed} by the rimewing for 1 minute. While {@condition charmed} by the rimewing, a creature is {@condition incapacitated} and must move up to its speed toward the rimewing at the start of its turn, stopping when it is 5 feet away. A {@condition charmed} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."]
+					"entries": [
+						"A 30-foot radius cloud of colorful ice crystals extends from the rimewing. Each creature in that area must succeed on a {@dc 12} Wisdom saving throw or be {@condition charmed} by the rimewing for 1 minute. While {@condition charmed} by the rimewing, a creature is {@condition incapacitated} and must move up to its speed toward the rimewing at the start of its turn, stopping when it is 5 feet away. A {@condition charmed} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
 				}
 			],
 			"fluff": {
@@ -1117,7 +1150,9 @@
 									{
 										"type": "entries",
 										"name": "Captivating",
-										"entries": ["Rimewings are prized for their wings, which feature a magically compelling pattern and coloration. They are found in cold and snow-covered climes, where they use their magic to draw in prey."]
+										"entries": [
+											"Rimewings are prized for their wings, which feature a magically compelling pattern and coloration. They are found in cold and snow-covered climes, where they use their magic to draw in prey."
+										]
 									}
 								]
 							}
@@ -1126,40 +1161,113 @@
 				]
 			},
 			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/CCodex/rimewing_token.png",
-			"environment": ["arctic", "forest"],
-			"miscTags": ["MW", "AOE"],
-			"damageTags": ["P"],
-			"senseTags": ["D"],
-			"conditionInflict": ["charmed", "incapacitated"]
+			"environment": [
+				"arctic",
+				"forest"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"damageTags": [
+				"P"
+			],
+			"senseTags": [
+				"D"
+			],
+			"conditionInflict": [
+				"charmed",
+				"incapacitated"
+			]
 		},
 		{
 			"name": "Cirsium Thornbloom",
 			"shortName": "Thornbloom",
-			"group": ["Fey"],
+			"group": [
+				"Fey"
+			],
 			"isNpc": true,
 			"source": "TinyMagus",
 			"page": 2,
-			"size": "L",
-			"type": { "type": "fey", "tags": ["archfey"] },
-			"alignment": [
-				{ "alignment": ["L", "G"] },
-				{ "alignment": ["L", "N"] }
+			"size": [
+				"L"
 			],
-			"ac": [{ "ac": 22, "condition": "Barklike hide", "braces": true }],
-			"hp": { "formula": "20d10 + 100", "average": 210 },
-			"speed": { "walk": 50, "burrow": 50 },
-			"str": 16, "dex": 26, "con": 21, "int": 18, "wis": 30, "cha": 23,
-			"save": { "wis": "+17", "cha": "+13", "dex": "+15" },
-			"skill": { "performance": "+20", "insight": "+17", "persuasion": "+13", "deception": "+13" },
-			"senses": ["Truesight 120 ft.", "blindsight 120 ft."],
+			"type": {
+				"type": "fey",
+				"tags": [
+					"archfey"
+				]
+			},
+			"alignment": [
+				{
+					"special": "lawful good or lawful neutral"
+				}
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"condition": "Barklike hide",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "20d10 + 100",
+				"average": 210
+			},
+			"speed": {
+				"walk": 50,
+				"burrow": 50
+			},
+			"str": 16,
+			"dex": 26,
+			"con": 21,
+			"int": 18,
+			"wis": 30,
+			"cha": 23,
+			"save": {
+				"wis": "+17",
+				"cha": "+13",
+				"dex": "+15"
+			},
+			"skill": {
+				"performance": "+20",
+				"insight": "+17",
+				"persuasion": "+13",
+				"deception": "+13"
+			},
+			"senses": [
+				"Truesight 120 ft.",
+				"blindsight 120 ft."
+			],
 			"passive": 20,
 			"resist": [
-				"cold", "necrotic", "poison",
-				{ "resist": ["bludgeoning", "piercing", "slashing"], "note": "from nonmagical attacks" }
+				"cold",
+				"necrotic",
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
 			],
-			"immune": ["psychic"],
-			"conditionImmune": ["blinded", "charmed", "exhaustion", "frightened"],
-			"languages": ["Common", "Deep Speech", "Sylvan", "Telepathy"],
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"Deep Speech",
+				"Sylvan",
+				"Telepathy"
+			],
 			"cr": "23",
 			"spellcasting": [
 				{
@@ -1169,40 +1277,198 @@
 						"Cirsium has the following spells prepared:"
 					],
 					"spells": {
-						"0": { "spells": ["{@spell chill touch}", "{@spell eldritch blast}", "{@spell mind sliver|TCE}", "{@spell sapping sting|EGW}", "{@spell thorn whip}", "{@spell thaumaturgy}", "{@spell spare the dying} as a bonus action (range 30 ft.)"] },
-						"1": { "spells": ["{@spell cause fear|XGE}", "{@spell detect magic}", "{@spell dissonant whispers}", "{@spell fog cloud}", "{@spell hail of thorns}", "{@spell hex}", "{@spell inflict wounds}", "{@spell Tasha's hideous laughter}"], "slots": 4 },
-						"2": { "spells": ["{@spell blindness/deafness}", "{@spell crown of madness}", "{@spell darkness}", "{@spell enlarge/reduce}", "{@spell moonbeam}", "{@spell phantasmal force}", "{@spell wither and bloom|SCC}"], "slots": 3 },
-						"3": { "spells": ["{@spell bestow curse}", "{@spell conjure barrage}", "{@spell counterspell}", "{@spell dispel magic}", "{@spell enemies abound|XGE}", "{@spell fear}", "{@spell remove curse}", "{@spell revivify}", "{@spell speak with dead}"], "slots": 3 },
-						"4": { "spells": ["{@spell banishment}", "{@spell blight}", "{@spell compulsion}", "{@spell grasping vine}", "{@spell guardian of nature|XGE}", "{@spell phantasmal killer}", "{@spell sickening radiance|XGE}", "{@spell summon aberration|TCE}"], "slots": 3 },
-						"5": { "spells": ["{@spell animate objects}", "{@spell dominate person}", "{@spell dream}", "{@spell geas}", "{@spell greater restoration}", "{@spell hallow}", "{@spell legend lore}", "{@spell modify memory}", "{@spell negative energy flood|XGE}", "{@spell seeming}", "{@spell wrath of nature|XGE}"], "slots": 3 },
-						"6": { "spells": ["{@spell circle of death}", "{@spell disintegrate}", "{@spell mental prison|XGE}", "{@spell Otto's irresistible dance}", "{@spell scatter|XGE}"], "slots": 2 },
-						"7": { "spells": ["{@spell crown of stars|XGE}", "{@spell finger of death}", "{@spell forcecage}", "{@spell power word pain|XGE}"], "slots": 2 },
-						"8": { "spells": ["{@spell antipathy/sympathy}", "{@spell feeblemind}", "{@spell maddening darkness|XGE}", "{@spell maze}", "{@spell reality break|EGW}"], "slots": 1 },
-						"9": { "spells": ["{@spell imprisonment}", "{@spell psychic scream|XGE}", "{@spell weird}"], "slots": 1 }
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell eldritch blast}",
+								"{@spell mind sliver|TCE}",
+								"{@spell sapping sting|EGW}",
+								"{@spell thorn whip}",
+								"{@spell thaumaturgy}",
+								"{@spell spare the dying} as a bonus action (range 30 ft.)"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell cause fear|XGE}",
+								"{@spell detect magic}",
+								"{@spell dissonant whispers}",
+								"{@spell fog cloud}",
+								"{@spell hail of thorns}",
+								"{@spell hex}",
+								"{@spell inflict wounds}",
+								"{@spell Tasha's hideous laughter}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell crown of madness}",
+								"{@spell darkness}",
+								"{@spell enlarge/reduce}",
+								"{@spell moonbeam}",
+								"{@spell phantasmal force}",
+								"{@spell wither and bloom|SCC}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell conjure barrage}",
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell enemies abound|XGE}",
+								"{@spell fear}",
+								"{@spell remove curse}",
+								"{@spell revivify}",
+								"{@spell speak with dead}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell blight}",
+								"{@spell compulsion}",
+								"{@spell grasping vine}",
+								"{@spell guardian of nature|XGE}",
+								"{@spell phantasmal killer}",
+								"{@spell sickening radiance|XGE}",
+								"{@spell summon aberration|TCE}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell animate objects}",
+								"{@spell dominate person}",
+								"{@spell dream}",
+								"{@spell geas}",
+								"{@spell greater restoration}",
+								"{@spell hallow}",
+								"{@spell legend lore}",
+								"{@spell modify memory}",
+								"{@spell negative energy flood|XGE}",
+								"{@spell seeming}",
+								"{@spell wrath of nature|XGE}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell circle of death}",
+								"{@spell disintegrate}",
+								"{@spell mental prison|XGE}",
+								"{@spell Otto's irresistible dance}",
+								"{@spell scatter|XGE}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell crown of stars|XGE}",
+								"{@spell finger of death}",
+								"{@spell forcecage}",
+								"{@spell power word pain|XGE}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell antipathy/sympathy}",
+								"{@spell feeblemind}",
+								"{@spell maddening darkness|XGE}",
+								"{@spell maze}",
+								"{@spell reality break|EGW}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell imprisonment}",
+								"{@spell psychic scream|XGE}",
+								"{@spell weird}"
+							],
+							"slots": 1
+						}
 					},
-					"daily": { "1": ["{@spell greater invisibility}"] },
-					"will": ["{@spell bane}", "{@spell command}", "{@spell demiplane}"],
+					"daily": {
+						"1": [
+							"{@spell greater invisibility}"
+						]
+					},
+					"will": [
+						"{@spell bane}",
+						"{@spell command}",
+						"{@spell demiplane}"
+					],
 					"ability": "wis",
 					"type": "spellcasting"
 				}
 			],
 			"trait": [
-				{ "name": "Fey Rebirth.", "entries": ["If Cirsium dies in its Domain of Delight, it revives with all its hit points {@dice 1d4} days later in a safe location in that domain."] },
-				{ "name": "Thorny hide.", "entries": ["At the start of each of its turns, thornbloom deals 5 ({@dice 1d10}) piercing damage to any creature grappling it."] },
-				{ "name": "Otherwordly Awareness", "entries": ["Cirsium knows if it hears a lie."] },
-				{ "name": "Consume Life", "entries": ["As a bonus action, Cirsium can target one creature it can see within 5 feet of it that has 0 hit points and is still alive. The target must succeed on a {@dc 26} Constitution saving throw against this magic or die. If the target dies, Cirsium regains 36 ({@dice 8d8}) hit points and the target can't be revived by any means short of a {@spell wish} spell or Cirsium himself"] }
+				{
+					"name": "Fey Rebirth.",
+					"entries": [
+						"If Cirsium dies in its Domain of Delight, it revives with all its hit points {@dice 1d4} days later in a safe location in that domain."
+					]
+				},
+				{
+					"name": "Thorny hide.",
+					"entries": [
+						"At the start of each of its turns, thornbloom deals 5 ({@dice 1d10}) piercing damage to any creature grappling it."
+					]
+				},
+				{
+					"name": "Otherwordly Awareness",
+					"entries": [
+						"Cirsium knows if it hears a lie."
+					]
+				},
+				{
+					"name": "Consume Life",
+					"entries": [
+						"As a bonus action, Cirsium can target one creature it can see within 5 feet of it that has 0 hit points and is still alive. The target must succeed on a {@dc 26} Constitution saving throw against this magic or die. If the target dies, Cirsium regains 36 ({@dice 8d8}) hit points and the target can't be revived by any means short of a {@spell wish} spell or Cirsium himself"
+					]
+				}
 			],
 			"action": [
-				{ "name": "Multiattack", "entries": ["The Cirsium uses Enervating Focus twice, or it uses Enervating Focus and Finger of Doom, if available."] },
-				{ "name": "Enervating Focus", "entries": ["{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}33 ({@damage 6d8 + 10}) necrotic damage. The target must succeed on a {@dc 25} Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest."] },
-				{ "name": "Finger of Doom {@recharge}", "entries": ["The nightwalker points at one creature it can see within 300 feet of it. The target must succeed on a {@dc 25} Wisdom saving throw or take 32 ({@damage 5d12}) necrotic damage and become {@condition frightened} until the end of the nightwalker's next turn. While {@condition frightened} in this way, the creature is also {@condition paralyzed}. If a target's saving throw is successful, the target is immune to the nightwalker's Finger of Doom for the next 24 hours."] }
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Cirsium uses Enervating Focus twice, or it uses Enervating Focus and Finger of Doom, if available."
+					]
+				},
+				{
+					"name": "Enervating Focus",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}33 ({@damage 6d8 + 10}) necrotic damage. The target must succeed on a {@dc 25} Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest."
+					]
+				},
+				{
+					"name": "Finger of Doom {@recharge}",
+					"entries": [
+						"The nightwalker points at one creature it can see within 300 feet of it. The target must succeed on a {@dc 25} Wisdom saving throw or take 32 ({@damage 5d12}) necrotic damage and become {@condition frightened} until the end of the nightwalker's next turn. While {@condition frightened} in this way, the creature is also {@condition paralyzed}. If a target's saving throw is successful, the target is immune to the nightwalker's Finger of Doom for the next 24 hours."
+					]
+				}
 			],
 			"reaction": [
-				{ "name": "Masochisms", "entries": ["Whenever Cirsium is subjected to any form of damage, it takes no damage and instead regains a number of hit points equal to the damage dealt."] }
+				{
+					"name": "Masochisms",
+					"entries": [
+						"Whenever Cirsium is subjected to any form of damage, it takes no damage and instead regains a number of hit points equal to the damage dealt."
+					]
+				}
 			],
-			"legendaryHeader": [],
+			"legendaryHeader": [
+				"Cirsium can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Cirsium regains spent legendary actions at the start of its turn."
+			],
 			"legendaryActions": 3,
-			"environment": ["feywild"],
+			"environment": [
+				"feywild"
+			],
 			"fluff": {
 				"entries": [
 					"### Personality",
@@ -1214,48 +1480,159 @@
 					"Looks like a normal forest, but covered in green thorny vines. Will'o'Wisps fill the domain, all non-aggressive unless attacked."
 				],
 				"images": [
-					{ "type": "image", "href": { "type": "external", "url": "https://i.pinimg.com/originals/7f/17/4d/7f174dbf5e2846ac279ad25ffb62361b.jpg" } }
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/originals/7f/17/4d/7f174dbf5e2846ac279ad25ffb62361b.jpg"
+						}
+					}
 				]
 			},
 			"tokenUrl": "https://i.imgur.com/DEhmgmS.png",
-			"senseTags": ["B", "U"],
-			"actionTags": ["Multiattack"],
-			"languageTags": ["C", "DS", "S"],
-			"damageTags": ["N", "P"],
-			"miscTags": ["MW", "RCH"],
-			"conditionInflict": ["frightened", "paralyzed"]
+			"senseTags": [
+				"B",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DS",
+				"S"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"Cirsium moves up to its speed."
+					]
+				},
+				{
+					"name": "Enervating Focus",
+					"entries": [
+						"Cirsium makes one Enervating Focus attack."
+					]
+				},
+				{
+					"name": "Finger of Doom (Costs 2 Actions)",
+					"entries": [
+						"Cirsium uses Finger of Doom, if available."
+					]
+				}
+			]
 		},
 		{
 			"name": "Iris",
 			"shortName": "Iris",
-			"group": ["Fey"],
+			"group": [
+				"Fey"
+			],
 			"isNpc": true,
 			"source": "TinyMagus",
 			"page": 2,
-			"size": "G",
-			"type": { "type": "fey", "tags": ["archfey"] },
-			"alignment": [
-				{ "alignment": ["L", "G"] },
-				{ "alignment": ["L", "N"] }
+			"size": [
+				"G"
 			],
-			"ac": [13],
-			"hp": { "formula": "20d20 + 200", "average": 410 },
-			"speed": { "walk": 50 },
-			"str": 26, "dex": 16, "con": 30, "int": 23, "wis": 21, "cha": 16,
-			"save": { "str": "+16", "wis": "+13", "con": "+18" },
-			"skill": { "arcana": "+22", "stealth": "+11", "performance": "+11", "investigation": "+14", "perception": "+13" },
-			"senses": ["Truesight 120 ft.", "Blindsight (Everywhere in its domain) ft."],
+			"type": {
+				"type": "fey",
+				"tags": [
+					"archfey"
+				]
+			},
+			"alignment": [
+				{
+					"special": "lawful good or lawful neutral"
+				}
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "20d20 + 200",
+				"average": 410
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 26,
+			"dex": 16,
+			"con": 30,
+			"int": 23,
+			"wis": 21,
+			"cha": 16,
+			"save": {
+				"str": "+16",
+				"wis": "+13",
+				"con": "+18"
+			},
+			"skill": {
+				"arcana": "+22",
+				"stealth": "+11",
+				"performance": "+11",
+				"investigation": "+14",
+				"perception": "+13"
+			},
+			"senses": [
+				"Truesight 120 ft.",
+				"Blindsight (Everywhere in its domain) ft."
+			],
 			"passive": 23,
-			"resist": ["lightning", "necrotic"],
+			"resist": [
+				"lightning",
+				"necrotic"
+			],
 			"immune": [
 				"poison",
-				{ "immune": ["bludgeoning", "piercing", "slashing"], "note": "from nonmagical attacks" }
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
 			],
 			"vulnerable": [
-				{ "vulnerable": ["bludgeoning", "thunder"], "preNote": "When in solid form," }
+				{
+					"vulnerable": [
+						"bludgeoning",
+						"thunder"
+					],
+					"preNote": "When in solid form,"
+				}
 			],
-			"conditionImmune": ["blinded", "charmed", "deafened", "exhaustion", "grappled", "incapacitated", "poisoned", "prone", "restrained", "unconscious"],
-			"languages": ["Common", "Deep Speech", "Sylvan", "Telepathy (When touching any of the liquid)"],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"grappled",
+				"incapacitated",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Common",
+				"Deep Speech",
+				"Sylvan",
+				"Telepathy (When touching any of the liquid)"
+			],
 			"cr": "25",
 			"spellcasting": [
 				{
@@ -1265,38 +1642,175 @@
 						"Iris has the following spells prepared:"
 					],
 					"spells": {
-						"0": { "spells": ["{@spell dancing lights}", "{@spell druidcraft}", "{@spell guidance}", "{@spell prestidigitation}"] },
-						"1": { "spells": ["{@spell ceremony|XGE}", "{@spell chromatic orb}", "{@spell color spray}", "{@spell detect magic}", "{@spell faerie fire}", "{@spell protection from evil and good}"], "slots": 4 },
-						"2": { "spells": ["{@spell enlarge/reduce}", "{@spell enthrall}", "{@spell mirror image}", "{@spell suggestion}"], "slots": 3 },
-						"3": { "spells": ["{@spell counterspell}", "{@spell dispel magic}", "{@spell hypnotic pattern}", "{@spell summon fey|TCE}"], "slots": 3 },
-						"4": { "spells": ["{@spell confusion}", "{@spell conjure woodland beings}", "{@spell hallucinatory terrain}"], "slots": 3 },
-						"5": { "spells": ["{@spell awaken}", "{@spell dream}", "{@spell legend lore}", "{@spell mislead}"], "slots": 3 },
-						"6": { "spells": ["{@spell conjure fey}", "{@spell contingency}", "{@spell eyebite}", "{@spell heroes' feast}", "{@spell mass suggestion}", "{@spell word of recall}"], "slots": 2 },
-						"7": { "spells": ["{@spell dream of the blue veil|TCE}", "{@spell prismatic spray}"], "slots": 2 },
-						"8": { "spells": ["{@spell antimagic field}", "{@spell antipathy/sympathy}", "{@spell feeblemind}", "{@spell maze}", "{@spell mighty fortress|XGE}"], "slots": 1 },
-						"9": { "spells": ["{@spell astral projection}", "{@spell foresight}", "{@spell imprisonment}", "{@spell prismatic wall}", "{@spell wish}"], "slots": 1 }
+						"0": {
+							"spells": [
+								"{@spell dancing lights}",
+								"{@spell druidcraft}",
+								"{@spell guidance}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell ceremony|XGE}",
+								"{@spell chromatic orb}",
+								"{@spell color spray}",
+								"{@spell detect magic}",
+								"{@spell faerie fire}",
+								"{@spell protection from evil and good}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell enlarge/reduce}",
+								"{@spell enthrall}",
+								"{@spell mirror image}",
+								"{@spell suggestion}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell hypnotic pattern}",
+								"{@spell summon fey|TCE}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell confusion}",
+								"{@spell conjure woodland beings}",
+								"{@spell hallucinatory terrain}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell awaken}",
+								"{@spell dream}",
+								"{@spell legend lore}",
+								"{@spell mislead}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell conjure fey}",
+								"{@spell contingency}",
+								"{@spell eyebite}",
+								"{@spell heroes' feast}",
+								"{@spell mass suggestion}",
+								"{@spell word of recall}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell dream of the blue veil|TCE}",
+								"{@spell prismatic spray}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell antimagic field}",
+								"{@spell antipathy/sympathy}",
+								"{@spell feeblemind}",
+								"{@spell maze}",
+								"{@spell mighty fortress|XGE}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell astral projection}",
+								"{@spell foresight}",
+								"{@spell imprisonment}",
+								"{@spell prismatic wall}",
+								"{@spell wish}"
+							],
+							"slots": 1
+						}
 					},
-					"daily": { "1": ["{@spell clone}"] },
-					"will": ["{@spell animal friendship}", "{@spell identify}", "{@spell primordial ward|XGE}", "{@spell simulacrum} As an action (shortened duration)", "{@spell tongues}", "{@spell true polymorph}"],
+					"daily": {
+						"1": [
+							"{@spell clone}"
+						]
+					},
+					"will": [
+						"{@spell animal friendship}",
+						"{@spell identify}",
+						"{@spell primordial ward|XGE}",
+						"{@spell simulacrum} As an action (shortened duration)",
+						"{@spell tongues}",
+						"{@spell true polymorph}"
+					],
 					"ability": "int",
 					"type": "spellcasting"
 				}
 			],
 			"trait": [
-				{ "name": "Fey Rebirth.", "entries": ["If Iris dies in its Domain of Delight, it revives with all its hit points {@dice 1d4} days later in a safe location in that domain."] },
-				{ "name": "Liquid Form", "entries": ["Iris can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."] },
-				{ "name": "False Appearance", "entries": ["While Iris remains motionless, it is indistinguishable from whatever it forms into."] },
-				{ "name": "Evasion", "entries": ["If Iris is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Iris instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."] }
+				{
+					"name": "Fey Rebirth.",
+					"entries": [
+						"If Iris dies in its Domain of Delight, it revives with all its hit points {@dice 1d4} days later in a safe location in that domain."
+					]
+				},
+				{
+					"name": "Liquid Form",
+					"entries": [
+						"Iris can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While Iris remains motionless, it is indistinguishable from whatever it forms into."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If Iris is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Iris instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
 			],
 			"action": [
-				{ "name": "Multiattack", "entries": ["Whenever Iris takes the attack action it makes three attacks."] },
-				{ "name": "Bite", "entries": ["{@atk mw} {@hit 16} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d10 + 8}) damage."] },
-				{ "name": "Claw", "entries": ["{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}10 ({@damage 2d6 + 8}) damage."] },
-				{ "name": "Blinding Ooze.", "entries": ["Iris exhales a black ooze in a 90-foot cone. Each creature in that area must succeed on a {@dc 26} Dexterity saving throw. On a failed save, the creature is {@condition blinded} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save."] }
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Whenever Iris takes the attack action it makes three attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d10 + 8}) damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}10 ({@damage 2d6 + 8}) damage."
+					]
+				},
+				{
+					"name": "Blinding Ooze.",
+					"entries": [
+						"Iris exhales a black ooze in a 90-foot cone. Each creature in that area must succeed on a {@dc 26} Dexterity saving throw. On a failed save, the creature is {@condition blinded} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
+					]
+				}
 			],
-			"legendaryHeader": [],
+			"legendaryHeader": [
+				"Iris can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Iris regains spent legendary actions at the start of its turn."
+			],
 			"legendaryActions": 3,
-			"environment": ["feywild"],
+			"environment": [
+				"feywild"
+			],
 			"fluff": {
 				"entries": [
 					"## Archfey Seelie, Ancient Monstrous",
@@ -1306,16 +1820,59 @@
 					"Constructed black ooze pool in the middle. Tastes like licorice. Wax castle that forms a solid bridge from the ooze."
 				],
 				"images": [
-					{ "type": "image", "href": { "type": "external", "url": "https://i.imgur.com/3U8vxwP.png" } }
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/3U8vxwP.png"
+						}
+					}
 				]
 			},
 			"tokenUrl": "https://i.imgur.com/TnTKj0p.png",
-			"traitTags": ["False Appearance"],
-			"senseTags": ["B", "U"],
-			"actionTags": ["Multiattack"],
-			"languageTags": ["C", "DS", "S"],
-			"miscTags": ["AOE", "MW", "RCH"],
-			"conditionInflict": ["blinded"]
+			"traitTags": [
+				"False Appearance"
+			],
+			"senseTags": [
+				"B",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DS",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded"
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"Iris moves up to its speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Attack",
+					"entries": [
+						"Iris makes one Bite or Claw attack."
+					]
+				},
+				{
+					"name": "Blinding Ooze (Costs 3 Actions)",
+					"entries": [
+						"Iris uses Blinding Ooze, if available."
+					]
+				}
+			]
 		},
 		{
 			"name": "Dream",
@@ -1323,24 +1880,78 @@
 			"page": 235,
 			"size": "L",
 			"type": "celestial",
-			"alignment": ["N", "G"],
-			"ac": [{ "ac": 12, "from": ["natural armor"] }],
-			"hp": { "average": 68, "formula": "8d10 + 24" },
-			"speed": { "walk": 60, "fly": 90 },
-			"str": 18, "dex": 15, "con": 16, "int": 10, "wis": 15, "cha": 13,
-			"save": { "dex": "+4", "wis": "+4", "cha": "+3" },
-			"skill": { "perception": "+6" },
+			"alignment": [
+				"NX",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 68,
+				"formula": "8d10 + 24"
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 90
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 15,
+			"cha": 13,
+			"save": {
+				"dex": "+4",
+				"wis": "+4",
+				"cha": "+3"
+			},
+			"skill": {
+				"perception": "+6"
+			},
 			"passive": 16,
-			"immune": ["radiant"],
-			"languages": ["understands Celestial", "Common", "Elvish", "and Sylvan but can't speak"],
+			"immune": [
+				"radiant"
+			],
+			"languages": [
+				"understands Celestial",
+				"Common",
+				"Elvish",
+				"and Sylvan but can't speak"
+			],
 			"cr": "3",
 			"trait": [
-				{ "name": "Confer Radiant Resistance", "entries": ["The dream can grant resistance to radiant damage to anyone riding it."] },
-				{ "name": "Illumination", "entries": ["The dream sheds bright light in a 10-foot radius and dim light for an additional 10 feet."] }
+				{
+					"name": "Confer Radiant Resistance",
+					"entries": [
+						"The dream can grant resistance to radiant damage to anyone riding it."
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries": [
+						"The dream sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+					]
+				}
 			],
 			"action": [
-				{ "name": "Hooves", "entries": ["{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage plus 7 ({@damage 2d6}) radiant damage."] },
-				{ "name": "Ethereal Stride", "entries": ["The dream and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa."] }
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage plus 7 ({@damage 2d6}) radiant damage."
+					]
+				},
+				{
+					"name": "Ethereal Stride",
+					"entries": [
+						"The dream and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa."
+					]
+				}
 			],
 			"fluff": {
 				"entries": [
@@ -1348,60 +1959,639 @@
 					{
 						"name": "Holy Steed",
 						"type": "entries",
-						"entries": ["Also called a \"Celestial Horse\" or \"Blessed Steed,\" the dream serves as a steed for creatures of boundless benevolence, carrying celestials, archliches, elves, fey, and other good beings."]
+						"entries": [
+							"Also called a \"Celestial Horse\" or \"Blessed Steed,\" the dream serves as a steed for creatures of boundless benevolence, carrying celestials, archliches, elves, fey, and other good beings."
+						]
 					},
 					{
 						"name": "Creating a Dream",
 						"type": "entries",
-						"entries": ["Dreams don't appear naturally in the multiverse. They must be created from pegasi. The event that creates a dream requires the pegasus to abandon its excessive pride linked to its wings, ascending the noble creature to greater heights as it embodies radiance and beauty."]
+						"entries": [
+							"Dreams don't appear naturally in the multiverse. They must be created from pegasi. The event that creates a dream requires the pegasus to abandon its excessive pride linked to its wings, ascending the noble creature to greater heights as it embodies radiance and beauty."
+						]
 					}
 				],
 				"images": [
-					{ "type": "image", "href": { "type": "external", "url": "https://i.imgur.com/W1zupfW.png" } }
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/W1zupfW.png"
+						}
+					}
 				]
 			},
 			"tokenUrl": "https://i.imgur.com/bEJn4Rl.png",
-			"soundClip": { "type": "external", "url": "https://5e.tools/audio/bestiary/nightmare.mp3" },
-			"traitTags": ["Illumination"],
-			"languageTags": ["C", "CE", "CS", "E", "S"],
-			"damageTags": ["B", "R"],
-			"miscTags": ["AOE", "MW"],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/nightmare.mp3"
+			},
+			"traitTags": [
+				"Illumination"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"CS",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
 			"name": "Pet Vulture",
-			"size": ["M"],
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"source": "TinyMagus",
-			"alignment": ["N"],
-			"ac": [10],
-			"hp": { "formula": "3d8 + 3", "average": 16 },
-			"speed": { "walk": 10, "fly": 50, "canHover": false },
-			"str": 12, "dex": 10, "con": 13, "int": 4, "wis": 14, "cha": 4,
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 10
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 50,
+				"canHover": false
+			},
+			"str": 12,
+			"dex": 10,
+			"con": 13,
+			"int": 4,
+			"wis": 14,
+			"cha": 4,
 			"passive": 14,
 			"cr": "1/4",
 			"shortName": "Vulture",
 			"page": 1,
-			"skill": { "perception": "+4" },
+			"skill": {
+				"perception": "+4"
+			},
 			"trait": [
-				{ "name": "Keen Sight and Smell", "entries": ["The vulture has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."] },
-				{ "name": "Pack Tactics", "entries": ["The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."] }
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"The vulture has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
 			],
-			"traitTags": ["Keen Senses", "Pack Tactics"],
-			"damageTags": ["P"],
-			"environment": ["desert", "forest", "hill"],
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"P"
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"hill"
+			],
 			"action": [
-				{ "name": "Beak", "entries": ["{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) piercing damage."] },
-				{ "name": "Talons", "entries": ["{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) piercing damage."] }
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) piercing damage."
+					]
+				}
 			],
-			"miscTags": ["MW"],
+			"miscTags": [
+				"MW"
+			],
 			"tokenUrl": "https://i.imgur.com/CGk5bq6.png",
 			"fluff": {
 				"images": [
-					{ "type": "image", "href": { "type": "external", "url": "https://i.imgur.com/CGk5bq6.png" } }
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/CGk5bq6.png"
+						}
+					}
 				]
 			}
+		},
+		{
+			"name": "Vorak",
+			"source": "TinyMagus",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "16d10+48"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 20,
+			"dex": 20,
+			"con": 16,
+			"int": 8,
+			"wis": 16,
+			"cha": 6,
+			"save": {
+				"dex": "+8",
+				"wis": "+6"
+			},
+			"skill": {
+				"perception": "+6",
+				"stealth": "+11"
+			},
+			"immune": [
+				"necrotic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Shadowstep",
+					"entries": [
+						"While in dim light or darkness, the Vorak's movement does not provoke opportunity attacks and it can move through the space of any creature without it being treated as difficult terrain. Its speed increases to 80 feet while in dim light or darkness."
+					]
+				},
+				{
+					"name": "Taste of Fear",
+					"entries": [
+						"The Vorak has advantage on all attack rolls against creatures that are {@condition frightened}. It can smell fear and despair within 300 feet; this functions as blindsight against {@condition frightened} creatures within that range."
+					]
+				},
+				{
+					"name": "Shadow Camouflage",
+					"entries": [
+						"The Vorak has advantage on Dexterity ({@skill Stealth}) checks made in dim light or darkness."
+					]
+				},
+				{
+					"name": "Soul Sensitivity",
+					"entries": [
+						"The Vorak can sense the presence of souls within 60 feet, including those behind total cover. It knows the direction but not the exact location. It cannot sense creatures that have been dead longer than 1 minute."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Vorak makes two attacks: one with its Bite and one with its Rending Claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10+5}) piercing damage. If the target is Medium or smaller, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Rending Claws",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8+5}) slashing damage. On a hit, the target must succeed on a {@dc 14} Constitution saving throw or gain one level of {@condition exhaustion} as the Vorak tears through flesh with deliberate, methodical force."
+					]
+				},
+				{
+					"name": "Seize Prey",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one Medium or smaller creature. {@h}10 ({@damage 1d10+5}) piercing damage and the target is {@condition grappled} (escape DC 16). While grappled this way, the creature is also {@condition restrained}. The Vorak can only have one creature grappled this way at a time."
+					]
+				},
+				{
+					"name": "Soul Drain {@recharge 5}",
+					"entries": [
+						"The Vorak fixes its gaze on one creature it can see within 30 feet that is {@condition frightened} or {@condition restrained}. The target must make a {@dc 15} Wisdom saving throw. On a failed save, the target takes 35 ({@damage 10d6}) necrotic damage and the Vorak regains hit points equal to half the damage dealt. The target's hit point maximum is reduced by the same amount until the target finishes a long rest. A creature reduced to 0 hit points this way dies and its soul is consumed and held within the Vorak. It cannot be restored to life by any means while the Vorak lives. If the Vorak is slain, the soul is released and the creature can be raised normally. A {@spell wish} spell or direct intervention by a deity of the dead or the Spirit Court can retrieve the soul regardless."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shadow Drag",
+					"entries": [
+						"While in dim light or darkness, the Vorak can move up to 30 feet toward its den while dragging a creature it has {@condition grappled}. This movement does not break the grapple and does not trigger reactions."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Darkness Retreat",
+					"entries": [
+						"When the Vorak takes damage while in dim light or darkness, it can move up to its speed without provoking opportunity attacks. This movement must end in dim light or darkness."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"N"
+			],
+			"conditionInflict": [
+				"prone",
+				"grappled",
+				"restrained",
+				"exhaustion"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"senseTags": [
+				"D"
+			],
+			"fluff": {
+				"entries": [
+					"The Vorak is a large predatory beast native to Umbraquin, built something like a wolf stretched too long, with limbs that fold at wrong angles and fur that drinks light rather than reflects it. Its eyes are pale and featureless—no pupil, no iris—and glow faintly red when it is feeding or excited. Its body casts a shadow even in total darkness.",
+					"It does not kill cleanly. It feeds on souls, and the process of soul-drain works best on prey that is alive and emotionally raw—fear and despair act as a kind of seasoning, enhancing the potency of the harvest. Because of this the Vorak has developed a hunting pattern unlike most predators: it takes its prey alive, drags them back to a den, and keeps them there for hours or days before finally feeding.",
+					{
+						"type": "entries",
+						"name": "Life Cycle",
+						"entries": [
+							"Vorak cubs are born in litters of four to eight and hunt cooperatively until roughly their third year. As a Vorak matures it becomes increasingly territorial and solitary. Two adult Vorak in the same territory will fight to the death within days.",
+							"Adult Vorak are patient, methodical, and disturbingly intelligent for a beast. They learn escape routes, test defenses, and remember faces. Locals in Umbraquin villages with a Vorak nearby often report a creeping feeling of being watched for days before anyone goes missing."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Cultural Impact",
+						"entries": [
+							"Umbraquin communities keep lanterns burning through the night, hang iron chimes (which Vorak dislike), and never show fear in the open. The Spirit Court tracks known Vorak territories and will commission Spirit Knights to cull a Vorak that moves too close to a settlement.",
+							"There is a superstition in some Umbraquin villages that a person who has survived a Vorak's den carries a taint—that some small piece of their soul was already tasted, and the beast will find them again. Most Spirit Court conduits dismiss this as folklore. Most."
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Vorak, Juvenile",
+			"source": "TinyMagus",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8+20"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 16,
+			"dex": 20,
+			"con": 14,
+			"int": 8,
+			"wis": 16,
+			"cha": 6,
+			"save": {
+				"dex": "+8",
+				"wis": "+6"
+			},
+			"skill": {
+				"perception": "+6",
+				"stealth": "+11"
+			},
+			"immune": [
+				"necrotic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The Vorak has advantage on an attack roll against a creature if at least one of the Vorak's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Shadowstep",
+					"entries": [
+						"While in dim light or darkness, the Vorak's movement does not provoke opportunity attacks and it can move through the space of any creature without it being treated as difficult terrain. Its speed increases to 80 feet while in dim light or darkness."
+					]
+				},
+				{
+					"name": "Taste of Fear",
+					"entries": [
+						"The Vorak has advantage on all attack rolls against creatures that are {@condition frightened}. It can smell fear and despair within 300 feet; this functions as blindsight against {@condition frightened} creatures within that range."
+					]
+				},
+				{
+					"name": "Shadow Camouflage",
+					"entries": [
+						"The Vorak has advantage on Dexterity ({@skill Stealth}) checks made in dim light or darkness."
+					]
+				},
+				{
+					"name": "Soul Sensitivity",
+					"entries": [
+						"The Vorak can sense the presence of souls within 60 feet, including those behind total cover. It knows the direction but not the exact location. It cannot sense creatures that have been dead longer than 1 minute."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Vorak makes two attacks: one with its Bite and one with its Rending Claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6+3}) piercing damage. If the target is Medium or smaller, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Rending Claws",
+					"entries": [
+						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6+3}) slashing damage."
+					]
+				},
+				{
+					"name": "Seize Prey",
+					"entries": [
+						"{@atk mw} {@hit +6} to hit, reach 5 ft., one Medium or smaller creature. {@h}8 ({@damage 1d10+3}) piercing damage and the target is {@condition grappled} (escape DC 14). While grappled this way, the creature is also {@condition restrained}. The Vorak can only have one creature grappled this way at a time."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Darkness Retreat",
+					"entries": [
+						"When the Vorak takes damage while in dim light or darkness, it can move up to its speed without provoking opportunity attacks. This movement must end in dim light or darkness."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"conditionInflict": [
+				"prone",
+				"grappled",
+				"restrained"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"senseTags": [
+				"D"
+			]
+		},
+		{
+			"name": "Vorak, Den-Keeper",
+			"source": "TinyMagus",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "16d10+48"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 20,
+			"dex": 20,
+			"con": 16,
+			"int": 8,
+			"wis": 16,
+			"cha": 6,
+			"save": {
+				"dex": "+8",
+				"wis": "+6"
+			},
+			"skill": {
+				"perception": "+6",
+				"stealth": "+11"
+			},
+			"immune": [
+				"necrotic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Soul Hoard",
+					"entries": [
+						"Consumed souls linger around the Den-Keeper in a 30-foot aura. Creatures entering or starting their turn in the aura must succeed on a {@dc 15} Wisdom saving throw or become {@condition frightened} until the start of their next turn."
+					]
+				},
+				{
+					"name": "Shadowstep",
+					"entries": [
+						"While in dim light or darkness, the Den-Keeper's movement does not provoke opportunity attacks and it can move through the space of any creature without it being treated as difficult terrain. Its speed increases to 80 feet while in dim light or darkness."
+					]
+				},
+				{
+					"name": "Taste of Fear",
+					"entries": [
+						"The Den-Keeper has advantage on all attack rolls against creatures that are {@condition frightened}. It can smell fear and despair within 300 feet; this functions as blindsight against {@condition frightened} creatures within that range."
+					]
+				},
+				{
+					"name": "Shadow Camouflage",
+					"entries": [
+						"The Den-Keeper has advantage on Dexterity ({@skill Stealth}) checks made in dim light or darkness."
+					]
+				},
+				{
+					"name": "Soul Sensitivity",
+					"entries": [
+						"The Den-Keeper can sense the presence of souls within 60 feet, including those behind total cover. It knows the direction but not the exact location. It cannot sense creatures that have been dead longer than 1 minute."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Den-Keeper makes two attacks: one with its Bite and one with its Rending Claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}20 ({@damage 2d10+9}) piercing damage. If the target is Medium or smaller, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Rending Claws",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}18 ({@damage 2d8+9}) slashing damage. On a hit, the target must succeed on a {@dc 14} Constitution saving throw or gain one level of {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Seize Prey",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one Medium or smaller creature. {@h}15 ({@damage 1d10+9}) piercing damage and the target is {@condition grappled} (escape DC 16). While grappled this way, the creature is also {@condition restrained}. The Den-Keeper can only have one creature grappled this way at a time."
+					]
+				},
+				{
+					"name": "Soul Drain {@recharge 4}",
+					"entries": [
+						"The Den-Keeper fixes its gaze on one creature it can see within 30 feet that is {@condition frightened} or {@condition restrained}. The target must make a {@dc 15} Wisdom saving throw. On a failed save, the target takes 39 ({@damage 10d6+4}) necrotic damage and the Den-Keeper regains hit points equal to half the damage dealt. The target's hit point maximum is reduced by the same amount until the target finishes a long rest. A creature reduced to 0 hit points this way dies and its soul is consumed. It cannot be restored to life by any means while the Den-Keeper lives. If the Den-Keeper is slain, the soul is released. A {@spell wish} spell or direct divine intervention can retrieve the soul regardless."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shadow Drag",
+					"entries": [
+						"While in dim light or darkness, the Den-Keeper can move up to 30 feet toward its den while dragging a creature it has {@condition grappled}. This movement does not break the grapple and does not trigger reactions."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Darkness Retreat",
+					"entries": [
+						"When the Den-Keeper takes damage while in dim light or darkness, it can move up to its speed without provoking opportunity attacks. This movement must end in dim light or darkness."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"N"
+			],
+			"conditionInflict": [
+				"prone",
+				"grappled",
+				"restrained",
+				"exhaustion",
+				"frightened"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"senseTags": [
+				"D"
+			]
 		}
 	],
 	"race": [
@@ -1410,24 +2600,69 @@
 			"source": "TinyMagus",
 			"page": 0,
 			"lineage": false,
-			"creatureTypes": ["fey", "dragon"],
-			"size": ["S", "T"],
-			"speed": { "walk": 10, "fly": 60 },
+			"creatureTypes": [
+				"fey",
+				"dragon"
+			],
+			"size": [
+				"S",
+				"T"
+			],
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
 			"additionalSpells": [
 				{
-					"ability": { "choose": ["int", "wis", "cha"] },
+					"ability": {
+						"choose": {
+							"from": [
+								"int",
+								"wis",
+								"cha"
+							]
+						}
+					},
 					"known": {
-						"1": ["dancing lights#c", "mage hand#c", "minor illusion#c"]
+						"1": [
+							"dancing lights#c",
+							"mage hand#c",
+							"minor illusion#c"
+						]
 					},
 					"innate": {
-						"5": { "daily": { "1": ["invisibility"] } }
+						"5": {
+							"daily": {
+								"1": [
+									"invisibility"
+								]
+							}
+						}
 					}
 				}
 			],
 			"entries": [
-				{ "type": "entries", "name": "Creature Type", "entries": ["You are a Fey Dragon. And thus affected by both creature types"] },
-				{ "type": "entries", "name": "Size", "entries": ["You are Tiny. Due to your miniature nature most weapons and armor are unusable by you, additionally your carrying capacity is x4 smaller than a medium sized creature"] },
-				{ "type": "entries", "name": "Flight", "entries": ["You have a flying speed of 60 feet. You cannot use this flying speed if you are wearing armor. In addition, when you take damage while flying, make a Constitution save with a DC equal to 10 or half the damage taken, whichever is higher. If you fail the saving throw, you fall to the ground."] },
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Fey Dragon. And thus affected by both creature types"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Tiny. Due to your miniature nature most weapons and armor are unusable by you, additionally your carrying capacity is x4 smaller than a medium sized creature"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight",
+					"entries": [
+						"You have a flying speed of 60 feet. You cannot use this flying speed if you are wearing armor. In addition, when you take damage while flying, make a Constitution save with a DC equal to 10 or half the damage taken, whichever is higher. If you fail the saving throw, you fall to the ground."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Faerie Dragon Magic",
@@ -1436,10 +2671,34 @@
 						"You can also cast either of those spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
 					]
 				},
-				{ "type": "entries", "name": "Darkvision", "entries": ["You can see in {@quickref Vision and Light||2||dim light} within 60 feet of you as if it were {@quickref Vision and Light||2||bright light} and in darkness as if it were {@quickref Vision and Light||2||dim light}. You discern colors in that darkness only as shades of gray."] },
-				{ "type": "entries", "name": "Minor Telepathy", "entries": ["You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time."] },
-				{ "type": "entries", "name": "Euphoric Breath", "entries": ["You can exhale a puff of euphoric gas at one creature within 5 feet of you. The creature must succeed on a Wisdom saving throw with a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature that fails its save cannot take reactions and must roll a {@dice d6} at the start of each of its turns to determine what it must do for that turn. On a roll of 1, the target moves in a random direction and takes no actions or bonus actions. On a 2-5, the target moves in a random direction. On a 6, the target behaves normally for the turn. This effect lasts for 1 minute or until it succeeds on a Wisdom saving throw at the end of its turn. Once you use this feature, you can't do so again until you finish a short or long rest."] },
-				{ "type": "entries", "name": "Languages", "entries": ["You can read, write, and speak Common, Draconic, and Sylvan."] }
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in {@quickref Vision and Light||2||dim light} within 60 feet of you as if it were {@quickref Vision and Light||2||bright light} and in darkness as if it were {@quickref Vision and Light||2||dim light}. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Minor Telepathy",
+					"entries": [
+						"You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Euphoric Breath",
+					"entries": [
+						"You can exhale a puff of euphoric gas at one creature within 5 feet of you. The creature must succeed on a Wisdom saving throw with a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature that fails its save cannot take reactions and must roll a {@dice d6} at the start of each of its turns to determine what it must do for that turn. On a roll of 1, the target moves in a random direction and takes no actions or bonus actions. On a 2-5, the target moves in a random direction. On a 6, the target behaves normally for the turn. This effect lasts for 1 minute or until it succeeds on a Wisdom saving throw at the end of its turn. Once you use this feature, you can't do so again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can read, write, and speak Common, Draconic, and Sylvan."
+					]
+				}
 			],
 			"hasFluff": true,
 			"hasFluffImages": true,
@@ -1447,22 +2706,47 @@
 				{
 					"choose": {
 						"weighted": {
-							"from": ["str", "dex", "con", "int", "wis", "cha"],
-							"weights": [2, 1]
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
 						}
 					}
 				},
 				{
 					"choose": {
 						"weighted": {
-							"from": ["str", "dex", "con", "int", "wis", "cha"],
-							"weights": [1, 1, 1]
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
 						}
 					}
 				}
 			],
 			"languageProficiencies": [
-				{ "common": true, "draconic": true, "sylvan": true }
+				{
+					"common": true,
+					"draconic": true,
+					"sylvan": true
+				}
 			]
 		}
 	],
@@ -1476,8 +2760,13 @@
 			"additionalSpells": [
 				{
 					"known": {
-						"_": ["spare the dying"],
-						"3": ["cure wounds", "guiding bolt"]
+						"_": [
+							"spare the dying"
+						],
+						"3": [
+							"cure wounds",
+							"guiding bolt"
+						]
 					}
 				}
 			],
