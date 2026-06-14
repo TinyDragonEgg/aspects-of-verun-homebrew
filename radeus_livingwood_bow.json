@@ -1,0 +1,68 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TinyMagus",
+				"abbreviation": "TinyMagus",
+				"full": "TinyMagus",
+				"url": "",
+				"authors": [
+					"Tiny Dragon"
+				],
+				"convertedBy": [
+					"Tiny Dragon"
+				],
+				"version": "1.0.0",
+				"color": "c9a227"
+			}
+		],
+		"dateAdded": 1781568000,
+		"dateLastModified": 1781568000
+	},
+	"item": [
+		{
+			"name": "Radeus Livingwood Bow",
+			"source": "TinyMagus",
+			"page": 0,
+			"baseItem": "longbow|PHB",
+			"type": "R",
+			"rarity": "rare",
+			"reqAttune": true,
+			"tier": "major",
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"entries": [
+				"You have a +1 bonus to attack and damage rolls made with this magic longbow.",
+				{
+					"type": "entries",
+					"name": "Song Craft",
+					"entries": [
+						"Whenever this longbow is struck or is used to attack a foe, everyone within 10 ft. hears a fragment of an ancient song."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "True Strikes",
+					"entries": [
+						"When you make an attack roll using this longbow, you can choose to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses. Once used, this property can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Barkskin",
+					"entries": [
+						"While attuned to this weapon, you have resistance to piercing damage."
+					]
+				}
+			]
+		}
+	]
+}
