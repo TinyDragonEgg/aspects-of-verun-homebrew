@@ -204,7 +204,7 @@
 				{
 					"name": "The Board Is Set — Gambit Forms",
 					"entries": [
-						"The Grandmaster has four Gambit Forms: {@b Pawn}, {@b Rook}, {@b Knight}, and {@b Bishop}. She begins combat in Pawn form. As a bonus action she can shift into any available form (see Bonus Actions), immediately gaining that form's temporary hit points (always the full listed amount; previous form's temp HP is lost). When a form's temp HP is fully depleted that form is {@b broken}: it cannot be re-entered and its special abilities become unavailable for the rest of combat. Once Rook, Knight, and Bishop are all broken, the Pawn automatically {@b ascends} — see {@b Queen's Ascension}."
+						"The Grandmaster has four Gambit Forms: {@b Pawn}, {@b Rook}, {@b Knight}, and {@b Bishop}. She begins combat in Pawn form. Each turn she may shift into any available form using the corresponding {@i Enter [Form]} action listed under Bonus Actions. When she enters a form she immediately gains that form's temporary hit points (always the full listed amount; the previous form's temp HP is lost). When a form's temp HP is fully depleted that form is {@b broken}: it cannot be re-entered and its special abilities become unavailable for the rest of combat. Once Rook, Knight, and Bishop forms are all broken, the Pawn automatically {@b ascends} — see {@b Queen's Ascension}."
 					]
 				},
 				{
