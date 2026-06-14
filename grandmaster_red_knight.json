@@ -1,0 +1,390 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TinyMagus",
+				"abbreviation": "TinyMagus",
+				"full": "TinyMagus",
+				"url": "",
+				"authors": [
+					"Tiny Dragon"
+				],
+				"convertedBy": [
+					"Tiny Dragon"
+				],
+				"version": "1.0.0",
+				"color": "c9a227"
+			}
+		],
+		"dateAdded": 1781568000,
+		"dateLastModified": 1781568000
+	},
+	"monster": [
+		{
+			"name": "Grandmaster of the Red Knight",
+			"shortName": "Grandmaster",
+			"source": "TinyMagus",
+			"page": 0,
+			"isNpc": true,
+			"group": [
+				"Red Knight Clergy"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"plate armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 170,
+				"formula": "20d8+80"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 18,
+			"int": 20,
+			"wis": 22,
+			"cha": 16,
+			"save": {
+				"str": "+9",
+				"con": "+9",
+				"wis": "+11",
+				"cha": "+8"
+			},
+			"skill": {
+				"athletics": "+9",
+				"history": "+10",
+				"insight": "+11",
+				"perception": "+11",
+				"religion": "+10"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"passive": 21,
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Grandmaster is a 15th-level War Domain cleric. Her spellcasting ability is Wisdom (spell save {@dc 19}, {@hit 11} to hit with spell attacks). She has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell sacred flame}",
+								"{@spell guidance}",
+								"{@spell thaumaturgy}",
+								"{@spell toll the dead|XGE}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell bless}",
+								"{@spell divine favor}",
+								"{@spell healing word}",
+								"{@spell shield of faith}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell hold person}",
+								"{@spell silence}",
+								"{@spell spiritual weapon}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell mass healing word}",
+								"{@spell spirit guardians}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell death ward}",
+								"{@spell stoneskin}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell flame strike}",
+								"{@spell mass cure wounds}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell blade barrier}",
+								"{@spell heal}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell divine word}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell holy aura}"
+							]
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "The Board Is Set — Gambit Forms",
+					"entries": [
+						"The Grandmaster has four Gambit Forms: {@b Pawn}, {@b Rook}, {@b Knight}, and {@b Bishop}. She begins combat in Pawn form. As a bonus action, she can shift into any available form, immediately gaining that form's temporary hit points (always the full listed amount; previous temp HP from another form is lost). When a form's temporary hit points are fully depleted, that form is {@b broken}: its special abilities become unavailable for the rest of the combat and it cannot be re-entered. Once the Rook, Knight, and Bishop forms are all broken, the Pawn automatically ascends — see {@b Queen's Ascension}."
+					]
+				},
+				{
+					"name": "Pawn Form (15 temp HP when entered)",
+					"entries": [
+						"The Grandmaster's default state. She has no additional form abilities, but retains full access to her spellcasting and standard attacks.",
+						"{@i The simplest piece — but the last one still standing.}"
+					]
+				},
+				{
+					"name": "Rook Form (40 temp HP when entered)",
+					"entries": [
+						"While in Rook form the Grandmaster's speed is reduced to 20 ft., but she gains the following:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Unyielding Ground.} She cannot be moved against her will or knocked {@condition prone}.",
+								"{@b Tower's Bastion (Reaction).} When she or an ally within 5 ft. is hit by an attack, she can impose disadvantage on that attack roll (declared after seeing the roll, before it resolves). Usable once per round.",
+								"She can use the {@b Crushing Tower} action."
+							]
+						}
+					]
+				},
+				{
+					"name": "Knight Form (25 temp HP when entered)",
+					"entries": [
+						"While in Knight form the Grandmaster's speed increases to 50 ft., and she gains the following:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Cavalry's Reach.} Opportunity attacks against the Grandmaster are made with disadvantage.",
+								"She can use the {@b Leaping Charge} action."
+							]
+						}
+					]
+				},
+				{
+					"name": "Bishop Form (30 temp HP when entered)",
+					"entries": [
+						"While in Bishop form the Grandmaster gains the following:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Warding Sigil (Reaction).} When a creature the Grandmaster can see within 30 ft. is targeted by an attack, she can grant that creature a +4 bonus to AC against that attack.",
+								"She can cast spells that restore hit points as a bonus action instead of an action.",
+								"She can use the {@b Tactical Blessing} action."
+							]
+						}
+					]
+				},
+				{
+					"name": "Queen's Ascension",
+					"entries": [
+						"When the Rook, Knight, and Bishop forms are all broken, the Pawn ascends. The Grandmaster immediately gains 50 temporary hit points, her speed becomes 60 ft., and she gains a flying speed of 60 ft. She has advantage on all saving throws, gains access to the special abilities of all broken forms, and may use the {@b Checkmate} action.",
+						"{@i The Pawn reaches the far rank. The board belongs to her.}"
+					]
+				},
+				{
+					"name": "War Caster",
+					"entries": [
+						"The Grandmaster has advantage on Constitution saving throws made to maintain concentration on spells. She can perform somatic components even when holding weapons or a shield."
+					]
+				},
+				{
+					"name": "Divine Strike",
+					"entries": [
+						"Once on each of her turns when she hits a creature with a weapon attack, the Grandmaster can cause that attack to deal an extra {@damage 2d8} radiant damage."
+					]
+				},
+				{
+					"name": "Avatar of Battle",
+					"entries": [
+						"The Grandmaster has resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Grandmaster makes two Longsword attacks. She can replace one of those attacks with a use of Spellcasting (casting a cantrip or a spell with a casting time of 1 action)."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}{@damage 1d8+4} slashing damage, or {@damage 1d10+4} slashing damage if used with two hands. She can deal an extra {@damage 2d8} radiant damage (Divine Strike, once per turn)."
+					]
+				},
+				{
+					"name": "Sacred Flame",
+					"entries": [
+						"One creature the Grandmaster can see within 60 ft. must succeed on a {@dc 19} Dexterity saving throw or take {@damage 4d8} radiant damage (half on a success)."
+					]
+				},
+				{
+					"name": "Crushing Tower (Rook Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}{@damage 2d6+4} bludgeoning damage plus {@damage 2d8} radiant damage (Divine Strike, once per turn). The target must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone} and have its speed reduced to 0 until the end of its next turn."
+					]
+				},
+				{
+					"name": "Leaping Charge (Knight Form Only)",
+					"entries": [
+						"The Grandmaster moves up to 30 ft. in a straight line — which may include vertical movement — without provoking opportunity attacks, then makes one Longsword attack: {@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}{@damage 1d8+4} slashing damage. If she moved at least 20 ft. before the attack, it deals an extra {@damage 2d10} damage. If she descended at least 10 ft. during this movement (charging from above), it deals a further {@damage 1d10} damage."
+					]
+				},
+				{
+					"name": "Tactical Blessing (Bishop Form Only)",
+					"entries": [
+						"One creature of the Grandmaster's choice within 60 ft. that can hear her gains a blessing until the start of the Grandmaster's next turn: the creature can add {@dice 1d8} to one attack roll or saving throw it makes during that time (no action required, no concentration)."
+					]
+				},
+				{
+					"name": "Checkmate (Queen's Ascension Only) {@recharge 5}",
+					"entries": [
+						"The Grandmaster unleashes a radiant cascade of absolute tactical dominance. Up to three creatures of her choice within 30 ft. must make a {@dc 19} Wisdom saving throw. On a failed save, a creature takes {@damage 8d8} radiant damage and is {@condition stunned} until the end of its next turn. On a success, it takes half as much damage and is not stunned. If at least one target fails the save, the Grandmaster regains 30 hit points."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shift Gambit",
+					"entries": [
+						"The Grandmaster shifts into any available Gambit Form, gaining that form's temporary hit points (see The Board Is Set). She cannot use this bonus action to re-enter a broken form."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "War God's Blessing (5/Day)",
+					"entries": [
+						"When a creature within 30 ft. of the Grandmaster makes an attack roll, she can grant that creature a +10 bonus to the roll. She can decide to use this reaction after the d20 is rolled, but before the DM says whether the attack hits or misses."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"The Grandmaster of the Red Knight can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Grandmaster regains spent legendary actions at the start of her turn."
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Strategic Advance",
+					"entries": [
+						"The Grandmaster moves up to her speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Command the Field",
+					"entries": [
+						"One ally within 60 ft. that can hear the Grandmaster can use its reaction to move up to its speed or make one weapon attack."
+					]
+				},
+				{
+					"name": "War Prayer (Costs 2 Actions)",
+					"entries": [
+						"The Grandmaster casts a cantrip or expends a spell slot to cast a 1st-level cleric spell she has prepared."
+					]
+				},
+				{
+					"name": "Decisive Strike (Costs 3 Actions)",
+					"entries": [
+						"The Grandmaster makes one Longsword attack."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The Grandmaster of the Red Knight is no zealot. She is a strategist of the highest order — a mortal champion elevated to the rank of divine general by the Lady of Strategy herself, not through acts of reckless glory but through decades of flawless tactical service. Her true name is rarely spoken. Those who serve under her simply call her \"the Grandmaster,\" spoken with the reverence of a title that has outlasted four armies and eleven campaigns.",
+					"In battle she channels the Red Knight's blessing through four sacred Gambit Forms drawn from the divine chess set of her goddess: the immovable {@b Rook}, the lightning-quick {@b Knight}, the sheltering {@b Bishop}, and the ever-present {@b Pawn}. Each form is a piece sacrificed in sequence with cold calculation — not out of desperation, but by design. She burns the Rook to absorb the first wave. She spends the Knight to crack their lines. She deploys the Bishop to keep her forces alive. And the Pawn, always last, becomes the Queen.",
+					"She despises recklessness and awards no points for valor without result. A skirmish won by luck is a lesson unlearned. An enemy dead by their own mistake is half a victory — the other half belongs to the general who put them in that position.",
+					{
+						"type": "entries",
+						"name": "Combat Tactics",
+						"entries": [
+							"The Grandmaster opens in {@b Rook form} to weather early aggression, using Tower's Bastion to protect vulnerable allies and Crushing Tower to anchor the most dangerous melee threat. She shifts to {@b Bishop form} when her party needs healing or a concentration spell must survive, then transitions to {@b Knight form} to punish overextended enemies or close on a high-priority target.",
+							"She treats {@b Queen's Ascension} as a bluff she would rather never reveal — it means every other piece has been spent. But if the board demands it, she plays the Queen without hesitation, and she plays to end the game in three moves."
+						]
+					}
+				]
+			},
+			"actionTags": [
+				"Multiattack",
+				"Spellcasting"
+			],
+			"damageTags": [
+				"S",
+				"R",
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"prone",
+				"stunned"
+			],
+			"traitTags": [
+				"War Caster",
+				"Spellcasting"
+			],
+			"languageTags": [
+				"C"
+			]
+		}
+	]
+}
