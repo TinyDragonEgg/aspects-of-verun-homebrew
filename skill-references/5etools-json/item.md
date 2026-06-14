@@ -24,7 +24,7 @@
 | `name` | string | Display name |
 | `source` | string | Must match `_meta.sources[].json` |
 | `page` | number | 0 for homebrew |
-| `type` | string | Item type code. See enums. |
+| `type` | string | Item type code. **Omit for purely wondrous items** — `"wondrous": true` is the type indicator and `type` should not be added. Required for weapons (`M`/`R`), armor (`LA`/`MA`/`HA`), potions (`P`), scrolls (`SC`), rings (`RG`), etc. See enums. |
 | `rarity` | string | Exact lowercase rarity string. See enums. |
 
 ---
@@ -225,3 +225,4 @@ The format is `"itemName|SOURCE"`.
 5. **`"charges": 0`** — omit the field if no charges, don't set to 0.
 6. **`"wondrous": false`** — omit the field if not wondrous, don't set to false.
 7. **`"weaponCategory"` on non-weapons** — only valid when `type` is `"M"` or `"R"`.
+8. **Adding `"type": "OTH"` to wondrous items** — don't. If `"wondrous": true` is set and the item has no physical form category (not a ring, rod, wand, staff, etc.), omit `type` entirely.

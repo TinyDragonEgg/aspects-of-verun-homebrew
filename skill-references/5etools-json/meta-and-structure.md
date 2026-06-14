@@ -186,7 +186,7 @@ With list style:
 | `{@condition name}` | `{@condition poisoned}` | linked condition |
 | `{@damage Xd6}` | `{@damage 2d6}` | rollable damage |
 | `{@dice Xd6}` | `{@dice 1d20+5}` | rollable dice |
-| `{@hit +X}` | `{@hit +5}` | attack roll bonus |
+| `{@hit X}` | `{@hit 5}` | attack roll bonus (`+` is rendered automatically — do NOT include it) |
 | `{@dc X}` | `{@dc 15}` | save DC |
 | `{@chance X}` | `{@chance 50}` | percentage |
 | `{@scaledice ...}` | (complex) | scaling dice |

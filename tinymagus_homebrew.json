@@ -514,7 +514,7 @@
 				"etherealness",
 				"misty step",
 				"dimension door",
-				"far step|xge",
+				"far step|XGE",
 				"arcane gate",
 				"find familiar"
 			]
@@ -575,7 +575,7 @@
 				"etherealness",
 				"misty step",
 				"dimension door",
-				"far step|xge",
+				"far step|XGE",
 				"arcane gate",
 				"find familiar"
 			]
@@ -1878,7 +1878,7 @@
 			"name": "Dream",
 			"source": "TinyMagus",
 			"page": 235,
-			"size": "L",
+			"size": ["L"],
 			"type": "celestial",
 			"alignment": [
 				"NX",

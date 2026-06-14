@@ -117,6 +117,12 @@ All are arrays of lowercase strings. Can also contain objects for conditional im
 ]
 ```
 
+`preNote` renders **before** the damage list; `note` renders **after**. Both are valid:
+```json
+{"vulnerable": ["bludgeoning", "thunder"], "preNote": "While in solid form,"}
+{"resist": ["piercing", "slashing"], "note": "from nonmagical attacks", "cond": true}
+```
+
 ### Senses (optional, array of strings)
 
 ```json
@@ -176,7 +182,7 @@ All follow the same entry object structure:
   },
   {
     "name": "Bite",
-    "entries": ["{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}{@damage 2d6+3} piercing damage."]
+    "entries": ["{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}{@damage 2d6+3} piercing damage."]
   }
 ],
 "reaction": [
@@ -249,7 +255,7 @@ If `legendaryActions` is omitted, defaults to 3. The header is optional but reco
   {
     "name": "Spellcasting",
     "headerEntries": [
-      "The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit +6} to hit with spell attacks). The mage has the following wizard spells prepared:"
+      "The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The mage has the following wizard spells prepared:"
     ],
     "spells": {
       "0": {"spells": ["{@spell fire bolt}", "{@spell light}"]},
@@ -361,7 +367,7 @@ These are optional but help 5etools search/filter. Don't fabricate tag codes —
     },
     {
       "name": "Rapier",
-      "entries": ["{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}{@damage 1d8+4} piercing damage."]
+      "entries": ["{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}{@damage 1d8+4} piercing damage."]
     }
   ],
   "reaction": [
