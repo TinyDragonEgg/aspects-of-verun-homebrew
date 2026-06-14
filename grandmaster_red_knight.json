@@ -263,7 +263,7 @@
 								"{@b AC} 18 (plate armor)",
 								"{@b Speed} 30 ft.",
 								"{@b Weapon} Longsword (see Actions)",
-								"{@b Intercession.} She can cast spells that restore hit points as a bonus action instead of an action.",
+								"{@b Intercession.} She gains the Intercession ability (see Bonus Actions).",
 								"Her {@b Warding Sigil} reaction is available (see Reactions).",
 								"She can use the {@b Tactical Blessing} action (see Actions)."
 							]
@@ -380,6 +380,12 @@
 					"name": "Enter Bishop Form",
 					"entries": [
 						"The Grandmaster shifts to Bishop form (see Bishop Form trait), gaining 30 temporary hit points."
+					]
+				},
+				{
+					"name": "Intercession (Bishop Form)",
+					"entries": [
+						"The Grandmaster casts one prepared spell that restores hit points — such as {@spell healing word} or {@spell mass healing word} — without spending her action."
 					]
 				}
 			],
