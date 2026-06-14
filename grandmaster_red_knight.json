@@ -208,69 +208,6 @@
 					]
 				},
 				{
-					"name": "Pawn Form",
-					"entries": [
-						"While the Grandmaster is in Pawn form (her default):",
-						{
-							"type": "list",
-							"items": [
-								"{@b AC} 18 (plate armor)",
-								"{@b Speed} 30 ft.",
-								"{@b Weapon} Longsword (see Actions)",
-								"No additional passive abilities — but full access to spellcasting and all standard attacks."
-							]
-						}
-					]
-				},
-				{
-					"name": "Rook Form",
-					"entries": [
-						"While the Grandmaster is in Rook form:",
-						{
-							"type": "list",
-							"items": [
-								"{@b AC} 20 (plate armor + tower shield)",
-								"{@b Speed} 20 ft.",
-								"{@b Weapon} Crushing Tower — one attack replacing the full Multiattack (see Actions)",
-								"{@b Unyielding Ground.} She cannot be moved against her will or knocked {@condition prone}.",
-								"Her {@b Tower's Bastion} reaction is available (see Reactions)."
-							]
-						}
-					]
-				},
-				{
-					"name": "Knight Form",
-					"entries": [
-						"While the Grandmaster is in Knight form:",
-						{
-							"type": "list",
-							"items": [
-								"{@b AC} 16 (chain mail)",
-								"{@b Speed} 50 ft.",
-								"{@b Weapon} Cavalry Saber (standard Multiattack) or Leaping Charge as a full action (see Actions)",
-								"{@b Cavalry's Reach.} Opportunity attacks against the Grandmaster are made with disadvantage."
-							]
-						}
-					]
-				},
-				{
-					"name": "Bishop Form",
-					"entries": [
-						"While the Grandmaster is in Bishop form:",
-						{
-							"type": "list",
-							"items": [
-								"{@b AC} 18 (plate armor)",
-								"{@b Speed} 30 ft.",
-								"{@b Weapon} Longsword (see Actions)",
-								"{@b Intercession.} She gains the Intercession ability (see Bonus Actions).",
-								"Her {@b Warding Sigil} reaction is available (see Reactions).",
-								"She can use the {@b Tactical Blessing} action (see Actions)."
-							]
-						}
-					]
-				},
-				{
 					"name": "Queen's Ascension",
 					"entries": [
 						"When the Rook, Knight, and Bishop forms are all broken, the Pawn ascends. The Grandmaster immediately gains 50 temporary hit points, and the following changes take effect for the rest of combat:",
@@ -361,25 +298,64 @@
 				{
 					"name": "Enter Pawn Form",
 					"entries": [
-						"The Grandmaster shifts to Pawn form (see Pawn Form trait), gaining 15 temporary hit points."
+						"The Grandmaster shifts to Pawn form, gaining 15 temporary hit points.",
+						{
+							"type": "list",
+							"items": [
+								"{@b AC} 18 (plate armor)",
+								"{@b Speed} 30 ft.",
+								"{@b Weapon} Longsword (see Actions)",
+								"No additional abilities beyond standard spellcasting and attacks."
+							]
+						}
 					]
 				},
 				{
 					"name": "Enter Rook Form",
 					"entries": [
-						"The Grandmaster shifts to Rook form (see Rook Form trait), gaining 40 temporary hit points."
+						"The Grandmaster shifts to Rook form, gaining 40 temporary hit points.",
+						{
+							"type": "list",
+							"items": [
+								"{@b AC} 20 (plate armor + tower shield)",
+								"{@b Speed} 20 ft.",
+								"{@b Weapon} Crushing Tower — one attack replacing the full Multiattack (see Actions)",
+								"{@b Unyielding Ground.} She cannot be moved against her will or knocked {@condition prone}.",
+								"Her {@b Tower's Bastion} reaction is available (see Reactions)."
+							]
+						}
 					]
 				},
 				{
 					"name": "Enter Knight Form",
 					"entries": [
-						"The Grandmaster shifts to Knight form (see Knight Form trait), gaining 25 temporary hit points."
+						"The Grandmaster shifts to Knight form, gaining 25 temporary hit points.",
+						{
+							"type": "list",
+							"items": [
+								"{@b AC} 16 (chain mail)",
+								"{@b Speed} 50 ft.",
+								"{@b Weapon} Cavalry Saber (standard Multiattack) or Leaping Charge as a full action (see Actions)",
+								"{@b Cavalry's Reach.} Opportunity attacks against the Grandmaster are made with disadvantage."
+							]
+						}
 					]
 				},
 				{
 					"name": "Enter Bishop Form",
 					"entries": [
-						"The Grandmaster shifts to Bishop form (see Bishop Form trait), gaining 30 temporary hit points."
+						"The Grandmaster shifts to Bishop form, gaining 30 temporary hit points.",
+						{
+							"type": "list",
+							"items": [
+								"{@b AC} 18 (plate armor)",
+								"{@b Speed} 30 ft.",
+								"{@b Weapon} Longsword (see Actions)",
+								"{@b Intercession.} She gains the Intercession ability (see below).",
+								"Her {@b Warding Sigil} reaction is available (see Reactions).",
+								"She can use the {@b Tactical Blessing} action (see Actions)."
+							]
+						}
 					]
 				},
 				{
