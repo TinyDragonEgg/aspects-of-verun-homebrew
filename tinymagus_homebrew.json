@@ -14,6 +14,19 @@
 				],
 				"version": "1.0.0",
 				"color": "c9a227"
+			},
+			{
+				"json": "AspectsOfVerun",
+				"abbreviation": "AoV",
+				"full": "Aspects of Verun - Kaeltharyn",
+				"authors": [
+					"Yahya"
+				],
+				"convertedBy": [
+					"5etools Homebrew Builder"
+				],
+				"version": "2.1",
+				"url": ""
 			}
 		],
 		"currencyConversions": {
@@ -2775,6 +2788,20 @@
 				"Celestial Attention|Bard|PHB|Celestial Lyre|TinyMagus|6|TinyMagus",
 				"Standing Ovation|Bard|PHB|Celestial Lyre|TinyMagus|14|TinyMagus"
 			]
+		},
+		{
+			"name": "School of the Artillery Witch",
+			"shortName": "Artillery Witch",
+			"source": "AspectsOfVerun",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"page": 0,
+			"subclassFeatures": [
+				"School of the Artillery Witch|Wizard|PHB|Artillery Witch|AspectsOfVerun|2|AspectsOfVerun",
+				"Siege Mastery|Wizard|PHB|Artillery Witch|AspectsOfVerun|6|AspectsOfVerun",
+				"Expanded Armory|Wizard|PHB|Artillery Witch|AspectsOfVerun|10|AspectsOfVerun",
+				"Master of Ballistics|Wizard|PHB|Artillery Witch|AspectsOfVerun|14|AspectsOfVerun"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -2832,6 +2859,242 @@
 				"You gain two additional Magical Secrets. You must choose from the following: {@spell aura of vitality}, {@spell beacon of hope}, {@spell death ward}, {@spell dawn|XGE}, {@spell heal}, {@spell raise dead}, or {@spell revivify}.",
 				"Once per long rest, as an action, you perform your masterpiece. The gods lean close. For a breathless moment, radiant light descends on every ally within 60 feet as celestial hands tend to their wounds. Each creature of your choice within range regains hit points equal to {@dice 3d8} + your Charisma modifier and is freed from one condition of your choice: blinded, charmed, deafened, frightened, paralyzed, or poisoned.",
 				"For 1 minute afterward, the audience hasn't left yet. Your healing spells deal maximum healing instead of rolling."
+			]
+		},
+		{
+			"name": "School of the Artillery Witch",
+			"source": "AspectsOfVerun",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Artillery Witch",
+			"subclassSource": "AspectsOfVerun",
+			"level": 2,
+			"entries": [
+				"{@i You survived the brutal training that kills most candidates. You were shot, again and again, until your magic awakened in desperation—or you died. You learned to see projectiles in flight, to catch bullets with force fields, to redirect artillery shells with a gesture. You are an Artillery Witch, one of Kaeltharyn's most feared and valued war mages.}",
+				"{@i Debris floats around you, caught in your permanent force field. Your body bears countless scars from training, each one a reminder that you survived what others did not. You are a living weapon, capable of stopping entire volleys of gunfire and turning enemy artillery back on itself. Some call you a slave, bound by magical shackles because your power is too dangerous to allow freedom. Others call you the ultimate weapon. You call yourself a survivor.}",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ballistic Aegis|Wizard|PHB|Artillery Witch|AspectsOfVerun|2|AspectsOfVerun"
+				}
+			]
+		},
+		{
+			"name": "Ballistic Aegis",
+			"source": "AspectsOfVerun",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Artillery Witch",
+			"subclassSource": "AspectsOfVerun",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Your brutal training awakened a protective force field powered by your willpower and endurance.",
+				{
+					"type": "entries",
+					"name": "Ballistic Ward",
+					"entries": [
+						"You manifest a personal force field. The ward has hit points equal to your Constitution modifier × your wizard level (minimum of 1). Whenever you take damage from a ranged weapon attack while the ward has at least 1 hit point, the ward takes the damage instead of you. If this damage reduces the ward to 0 hit points, you take any remaining damage.",
+						"Small objects (pebbles, dust, metal fragments) visibly orbit you while the ward has hit points. When the ward is depleted, this effect vanishes until restored."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Restoring Your Ward",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"The ward regains all its hit points when you finish a long rest.",
+								"You can spend 10 minutes in meditation during a short rest to restore the ward to full hit points.",
+								"As an action, you can attempt to reinforce your ward in combat. Make a Constitution saving throw (DC 10 + one-quarter of the damage your ward has taken since your last long rest, rounded down). On a success, the ward regains hit points equal to your wizard level + your Constitution modifier. On a failure, the ward regains no hit points and you take {@damage 1d6} psychic damage from the strain. You can attempt this once, regaining the ability to do so when you finish a short or long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Projectile Manipulation",
+					"entries": [
+						"When a ranged weapon attack misses you (whether through your AC or because your ward absorbed it), you can use your reaction to catch the projectile if it's something you can lift. You can use this reaction a number of times equal to your Intelligence modifier (minimum of once), regaining all expended uses when you finish a long rest.",
+						"When you catch a projectile this way, you can immediately make a ranged spell attack against a creature within 60 feet, hurling it back with force. On a hit, the target takes the projectile's original damage + your Intelligence modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Benefits",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"When you cast {@spell shield}, it grants a +6 bonus to AC instead of +5 and restores ward hit points equal to your Intelligence modifier.",
+								"When you cast a spell that deals force damage, you add your Intelligence modifier to one damage roll of that spell."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Siege Mastery",
+			"source": "AspectsOfVerun",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Artillery Witch",
+			"subclassSource": "AspectsOfVerun",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your control over projectiles and artillery magic has reached deadly precision. You gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Enhanced Redirection",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"When you catch a projectile using Projectile Manipulation, you can target a creature within 120 feet instead of 60 feet.",
+								"If your redirected projectile hits, you can choose to have it deal force damage instead of its original damage type.",
+								"As a bonus action, you can extend your force field to a creature you can see within 30 feet. Until the start of your next turn, that creature gains a +2 bonus to AC against ranged weapon attacks. You can use this a number of times equal to your proficiency bonus, regaining all expended uses when you finish a short or long rest.",
+								"When you cast a wizard spell that requires a ranged spell attack, you ignore half cover and three-quarters cover."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Living Artillery",
+					"entries": [
+						"You have advantage on spell attack rolls against objects and structures. When you deal damage to a structure with a spell, you deal double damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Expanded Armory",
+			"source": "AspectsOfVerun",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Artillery Witch",
+			"subclassSource": "AspectsOfVerun",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You have become a walking artillery platform. You gain two of the following options. Whenever you gain a level in this class, you can replace one of your choices with a different option.",
+				{
+					"type": "entries",
+					"name": "Artillery Barrage",
+					"entries": [
+						"As an action, you can unleash a barrage of magical force. Choose up to three points you can see within 120 feet. Each creature within 10 feet of each point must make a Dexterity saving throw against your spell save DC, taking {@damage 4d6} force damage on a failed save, or half as much damage on a successful one. Once you use this feature, you can't use it again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mass Deflection",
+					"entries": [
+						"When you are targeted by a ranged weapon attack while you have at least one use of Projectile Manipulation remaining, you can expend a spell slot of 1st level or higher to activate a mass deflection field. Until the start of your next turn, ranged weapon attacks against you and allies within 10 feet of you have disadvantage, you have advantage on Dexterity saving throws, and you can use Projectile Manipulation without expending uses. Your ward takes no damage from ranged weapon attacks while this field is active."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fortified Aegis",
+					"entries": [
+						"Your ward becomes more resilient. You gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You gain resistance to force damage.",
+								"Your ward no longer vanishes when reduced to 0 hit points—instead, it remains at 0 hit points until restored.",
+								"When you cast a wizard spell of 1st level or higher, your ward regains hit points equal to twice the spell's level."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Combat Reflexes",
+					"entries": [
+						"You gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You have advantage on Dexterity saving throws against effects you can see, such as spells or traps.",
+								"You can take the {@action Dodge} action as a bonus action.",
+								"When you take the {@action Dodge} action, your ward regains hit points equal to your Constitution modifier + your proficiency bonus."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kinetic Absorption",
+					"entries": [
+						"When your ward absorbs damage from a ranged weapon attack, you store kinetic energy. As a bonus action, you can release this energy, adding {@dice 1d6} force damage per 5 damage your ward has absorbed since the start of your last turn to one damage roll of your next damaging spell (maximum {@dice 6d6}). The stored energy dissipates at the start of your next turn if not used."
+					]
+				}
+			]
+		},
+		{
+			"name": "Master of Ballistics",
+			"source": "AspectsOfVerun",
+			"page": 0,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Artillery Witch",
+			"subclassSource": "AspectsOfVerun",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You have achieved perfect mastery over projectiles and force magic. You gain one of the following options. Whenever you gain a level in this class, you can replace your choice with a different option.",
+				{
+					"type": "entries",
+					"name": "Supreme Deflection",
+					"entries": [
+						"Your Projectile Manipulation improves dramatically. You can now use it a number of times equal to your proficiency bonus + your Intelligence modifier, regaining all expended uses when you finish a long rest. At 20th level, you can use Projectile Manipulation an unlimited number of times.",
+						"Additionally, when you catch and redirect a projectile, you can target up to three creatures within 90 feet instead of one, making a separate ranged spell attack roll for each target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Perfected Ward",
+					"entries": [
+						"Your ward becomes exceptionally durable. You gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Your ward's maximum hit points increase by an amount equal to your wizard level.",
+								"When your ward would be reduced to 0 hit points, you can use your reaction to stabilize it at 1 hit point instead. Once you use this reaction, you can't use it again until you finish a long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Perfect Aegis",
+					"entries": [
+						"When you would take damage from a source you can see, you can use your reaction to create a perfect shield, taking no damage from that source. Your ward is unaffected by this damage. Once you use this feature, you can't use it again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Artillery Storm",
+					"entries": [
+						"As an action, you create a devastating artillery storm at a point you can see within 120 feet. For 1 minute, you must maintain {@status concentration} on this effect (as if concentrating on a spell). At the start of each of your turns while the storm is active, each creature within 20 feet of the point must make a Dexterity saving throw against your spell save DC, taking {@damage 6d6} force damage on a failed save, or half as much damage on a successful one.",
+						"As a bonus action on your turn, you can move the storm's center point up to 30 feet.",
+						"Once you use this feature, you can't use it again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cascade Deflection",
+					"entries": [
+						"When you use Projectile Manipulation to redirect a projectile and it hits, you can immediately redirect it again to a different creature within 60 feet as part of the same reaction (without expending an additional use). Each redirect after the first imposes a cumulative −2 penalty to your ranged spell attack roll. You can chain up to 3 total redirects this way (hitting up to 3 different creatures).",
+						"Once per short rest, when you use this feature, you can ignore the attack roll penalty for all redirects in that chain."
+					]
+				}
 			]
 		}
 	]

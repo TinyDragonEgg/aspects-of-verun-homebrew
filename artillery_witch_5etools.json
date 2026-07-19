@@ -33,10 +33,10 @@
 			"classSource": "PHB",
 			"page": 0,
 			"subclassFeatures": [
-				"School of the Artillery Witch|Wizard|PHB|Artillery Witch|AspectsOfVerun|2",
-				"Siege Mastery|Wizard|PHB|Artillery Witch|AspectsOfVerun|6",
-				"Expanded Armory|Wizard|PHB|Artillery Witch|AspectsOfVerun|10",
-				"Master of Ballistics|Wizard|PHB|Artillery Witch|AspectsOfVerun|14"
+				"School of the Artillery Witch|Wizard|PHB|Artillery Witch|AspectsOfVerun|2|AspectsOfVerun",
+				"Siege Mastery|Wizard|PHB|Artillery Witch|AspectsOfVerun|6|AspectsOfVerun",
+				"Expanded Armory|Wizard|PHB|Artillery Witch|AspectsOfVerun|10|AspectsOfVerun",
+				"Master of Ballistics|Wizard|PHB|Artillery Witch|AspectsOfVerun|14|AspectsOfVerun"
 			]
 		}
 	],
