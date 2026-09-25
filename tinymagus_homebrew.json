@@ -994,6 +994,68 @@
 			"entries": [],
 			"page": 213,
 			"bonusWeapon": "+1"
+		},
+		{
+			"name": "Winter Thistlefang",
+			"source": "TinyMagus",
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"curse": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"A layer of permafrost clings to the blade. Ghastly pale thorns have wrapped themselves into a briar along the spine and around the hilt, and a Telvani Frostwyrm fang appears to have grown from the pommel. While attuned to the weapon, you feel something inside it shift in its sleep.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra {@damage 1d6} cold damage.",
+				{
+					"type": "entries",
+					"name": "Briar Grip",
+					"entries": [
+						"While the sword is in its base form, you can turn the blade around on your turn and strike with the thorned spine (no action required). While you hold it this way, the sword deals piercing damage instead of slashing. When you hit a creature in Briar Grip, you can use a bonus action to tear the thorns free. The target takes an extra {@damage 1d6} piercing damage and gains one Bleed stack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bleed",
+					"entries": [
+						"A creature takes {@damage 1d4} piercing damage for each Bleed stack at the start of each of its turns. It can have up to 3 stacks. Each stack has to be removed separately:",
+						{
+							"type": "list",
+							"items": [
+								"A creature can use an action to make a {@dc 15} Wisdom ({@skill Medicine}) check on the bleeding creature. A success removes one stack.",
+								"Magical healing removes one stack for each spell or effect.",
+								"At the end of each of its turns, the bleeding creature can make a {@dc 15} Constitution saving throw. A success removes one stack."
+							]
+						},
+						"Constructs, oozes, and undead can't gain Bleed stacks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Glacial Bloom",
+					"entries": [
+						"As a bonus action, you can press your palm into the thorns on the hilt and lose {@damage 2d6} hit points, which can't be reduced in any way. Ice grows out over the blade until it reaches the size of a greatsword, with a core of thorned vine inside it. For 1 minute the weapon has the heavy and two-handed properties. Each hit deals {@damage 2d6} bludgeoning damage plus {@damage 1d6} piercing damage. Once it has dealt 40 damage in total, or when the minute is up, the ice shatters. Each creature within 5 feet of you, other than you, must succeed on a {@dc 15} Dexterity saving throw or take {@damage 2d6} cold damage. The sword then returns to its base form."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"A vengeful spirit lives in this sword, and attuning to it extends the curse to you. While you're cursed, you won't willingly part with the sword. The frost and Cirsium's thorns keep the spirit {@b Chilled}. In that state it stays quiet and places no other demands on you.",
+						"Your blood stirs it. Using Glacial Bloom awakens the spirit until you finish a short or long rest. While it's {@b Awakened}, you have disadvantage on attack rolls made with any weapon other than this one. At the start of each of your turns, you also make a {@dc 15} Wisdom saving throw. If you fail, the spirit takes your bonus action for that turn and uses it to make one melee attack with the sword against the nearest hostile creature within reach. If there is none, it attacks the nearest other creature within reach, ally or not. If no creature is within reach, it lashes out at empty air and your bonus action is wasted."
+					]
+				}
+			]
 		}
 	],
 	"feat": [
