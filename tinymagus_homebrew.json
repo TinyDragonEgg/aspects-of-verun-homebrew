@@ -1056,6 +1056,59 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Valis'ka",
+			"source": "TinyMagus",
+			"baseItem": "longsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"Sheathed, Valis'ka looks like a cross-shaped branch ending in a fine point, as if a tree grew around a sword and swallowed it. Dark vines flowering with black blossoms wrap its guard and hilt, with barely enough room between the thorns to grip it, and a closed bud sits on the pommel.",
+				"Drawn, the blade is clearly wood yet smooth as steel, with no grain, rings or tool marks, as if it grew this way. Its edge is flawless except for a small serration near the crossguard. Grown from a cut branch of a corrupted spirit tree to kill Valis, an ancient {@creature Vorak|TinyMagus|vorak} Den-Keeper. In the local tongue, its name means \"Valis's end.\"",
+				"Against a vorak, it gains a bonus to attack and damage rolls based on the vorak's age:",
+				{
+					"type": "list",
+					"items": [
+						"{@b {@creature Vorak, Juvenile|TinyMagus|Juvenile}:} +1",
+						"{@b {@creature Vorak|TinyMagus|Adult}:} +2",
+						"{@b {@creature Vorak, Den-Keeper|TinyMagus|Den-Keeper}:} +3"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Soul Draw",
+					"entries": [
+						"When a creature dies from damage dealt by this weapon, its soul is drawn into the blade and one of the black blossoms opens. The blade can hold up to 3 souls. While a creature's soul is held in the blade, that creature can't be raised from the dead or become undead.",
+						"While you hold the sword, the souls inside it cling to you like a shroud. You gain a +1 bonus to AC for each soul the blade holds."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Haunted",
+					"entries": [
+						"While you hold the sword and it holds at least one soul, you see and hear the last moments of the creatures inside it. You have disadvantage on Wisdom ({@skill Perception}) checks, and you take a penalty to Wisdom saving throws equal to the number of souls the blade holds."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lay to Rest",
+					"entries": [
+						"As an action, you can drive the blade into the ground and release every soul it holds. The blossoms close, and each released soul passes on. The bodies of those creatures can never rise as undead. Within the hour, the ground within 10 feet of where the blade struck flourishes. Grass and flowers spring up, and the plants there stay healthy and green in any season."
+					]
+				}
+			]
 		}
 	],
 	"feat": [
