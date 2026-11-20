@@ -1546,6 +1546,54 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Verdance of the Nature Giant",
+			"source": "TinyMagus",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"strike of the nature giants|tinymagus"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You've manifested the overgrown might emblematic of nature giants, granting you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Score Increase.",
+							"entry": "Increase your Strength, Constitution, or Wisdom by 1, to a maximum of 20."
+						},
+						{
+							"type": "item",
+							"name": "Wildheart.",
+							"entry": "You can communicate simple ideas, such as danger, hunger, direction, or the presence of creatures, with beasts and plant creatures within 30 feet of you, and they can do the same with you. This doesn't make them friendly or compel them to obey. You also have advantage on Wisdom ({@skill Animal Handling}) checks made against beasts. In addition, you can spend 1 minute touching a nonmagical plant to learn in vague impressions whether any creatures passed within 10 feet of it in the last 24 hours, and roughly what size they were."
+						},
+						{
+							"type": "item",
+							"name": "Overgrowth.",
+							"entry": "As a bonus action, you cause thorned vines to burst from the ground in a 15-foot radius centered on you. The vines last until the start of your next turn or until you are {@condition incapacitated}. The area is difficult terrain for creatures of your choice. The first time on a turn that a creature of your choice moves 5 feet or more within the area, or starts its turn there, it must make a Strength saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, it takes piercing damage equal to {@damage 1d6} + your proficiency bonus. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+						}
+					]
+				}
+			]
 		}
 	],
 	"language": [
@@ -2375,7 +2423,9 @@
 			"name": "Dream",
 			"source": "TinyMagus",
 			"page": 235,
-			"size": ["L"],
+			"size": [
+				"L"
+			],
 			"type": "celestial",
 			"alignment": [
 				"NX",
