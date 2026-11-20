@@ -1578,11 +1578,6 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "Ability Score Increase.",
-							"entry": "Increase your Strength, Constitution, or Wisdom by 1, to a maximum of 20."
-						},
-						{
-							"type": "item",
 							"name": "Wildheart.",
 							"entry": "You can communicate simple ideas, such as danger, hunger, direction, or the presence of creatures, with beasts and plant creatures within 30 feet of you, and they can do the same with you. This doesn't make them friendly or compel them to obey. You also have advantage on Wisdom ({@skill Animal Handling}) checks made against beasts. In addition, you can spend 1 minute touching a nonmagical plant to learn in vague impressions whether any creatures passed within 10 feet of it in the last 24 hours, and roughly what size they were."
 						},
